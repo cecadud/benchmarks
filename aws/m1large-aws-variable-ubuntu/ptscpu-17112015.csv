@@ -1,0 +1,41 @@
+ptscpu-17112015
+
+ ,"ptscpu"
+Processor,Intel Xeon E5-2650 0 @ 1.80GHz (2 Cores)
+Memory,8192MB
+Disk,8GB
+OS,Ubuntu 14.04
+Kernel,3.13.0-66-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+System Layer,Xen 3.4.3.amazon Hypervisor
+
+ ,"ptscpu"
+"Stream - Type: Copy",14922.26
+"Stream - Type: Scale",15294.81
+"Stream - Type: Triad",16314.70
+"Stream - Type: Add",15588.98
+"NAS Parallel Benchmarks - Test / Class: LU.A",2888.46
+"Timed MAFFT Alignment - Multiple Sequence Alignment",24.82
+"Gcrypt Library - CAMELLIA256-ECB Cipher",4997
+"TSCP - AI Chess Performance",521177
+"John The Ripper - Traditional DES",2062000
+"John The Ripper - Blowfish",845
+"x264 - H.264 Video Encoding",27.65
+"GraphicsMagick - HWB Color Space",61
+"GraphicsMagick - Local Adaptive Thresholding",38
+"GraphicsMagick - Sharpen",14
+"GraphicsMagick - Resizing",42
+"Himeno Benchmark - Poisson Pressure Solver",788.78
+"7-Zip Compression - Compress Speed Test",3517
+"C-Ray - Total Time",133.81
+"Parallel BZIP2 Compression - 256MB File Compression",40.62
+"Smallpt - Global Illumination Renderer; 100 Samples",577
+"Crafty - Elapsed Time",167.74
+"FLAC Audio Encoding - WAV To FLAC",18.80
+"LAME MP3 Encoding - WAV To MP3",30.57
+"FFmpeg - H.264 HD To NTSC DV",34.89
+"Tachyon - Total Time",71.18
+"OpenSSL - RSA 4096-bit Performance",110.23
+"Apache Benchmark - Static Web Page Serving",4884.07
+

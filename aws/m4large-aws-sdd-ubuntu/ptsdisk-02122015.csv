@@ -1,0 +1,36 @@
+ptsdisk-02122015
+
+ ,"ptsdisk"
+Processor,Intel Xeon E5-2676 v3 @ 2.39GHz (2 Cores)
+Motherboard,Xen HVM domU
+Chipset,Intel 440FX- 82441FX PMC
+Memory,8192MB
+Disk,158GB
+Graphics,Cirrus Logic GD 5446
+Network,Intel 82599 Virtual Function
+OS,Ubuntu 14.04
+Kernel,3.13.0-48-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+System Layer,Xen HVM domU 4.2.amazon
+
+ ,"ptsdisk"
+"AIO-Stress - Random Write",1497.58
+"SQLite - Timed SQLite Insertions",24.40
+"FS-Mark - 1000 Files, 1MB Size",54.70
+"Dbench - 12 Clients",409.98
+"Dbench - 48 Clients",347.47
+"Dbench - 128 Clients",369.59
+"Dbench - 1 Clients",210.35
+"IOzone - 8GB Read Performance",53.99
+"IOzone - 8GB Write Performance",53.79
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",4038.92
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",10.54
+"Compile Bench - Test: Compile",195.67
+"Compile Bench - Test: Initial Create",146.31
+"Compile Bench - Test: Read Compiled Tree",829.53
+"Unpacking The Linux Kernel - linux-2.6.32.tar.bz2",11.54
+"PostMark - Disk Transaction Performance",3989
+"Gzip Compression - 2GB File Compression",15.88
+"Apache Benchmark - Static Web Page Serving",10062.86
+

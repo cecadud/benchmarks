@@ -1,0 +1,26 @@
+ptsmemory-16122015
+
+ ,"ptsmemory"
+Processor,Intel Xeon E5-2676 v3 @ 2.40GHz (2 Cores)
+Motherboard,Xen HVM domU
+Chipset,Intel 440FX- 82441FX PMC
+Memory,4096MB
+Disk,40GB
+Graphics,Cirrus Logic GD 5446
+OS,Ubuntu 14.04
+Kernel,3.13.0-73-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+System Layer,Xen HVM domU 4.2.amazon
+
+ ,"ptsmemory"
+"RAMspeed SMP - Integer Add",21543.18
+"RAMspeed SMP - Integer Copy",21642.99
+"RAMspeed SMP - Integer Scale",21428.53
+"RAMspeed SMP - Floating-Point Add",18450.95
+"Stream - Add",23388.72
+"Stream - Copy",21459.76
+"Stream - Scale",21184.44
+"CacheBench - Read Cache",2269.05
+"CacheBench - Write Cache",12162.49
+

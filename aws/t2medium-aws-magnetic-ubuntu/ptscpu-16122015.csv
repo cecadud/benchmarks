@@ -1,0 +1,43 @@
+ptscpu-16122015
+
+ ,"ptscpu"
+Processor,Intel Xeon E5-2676 v3 @ 2.40GHz (2 Cores)
+Motherboard,Xen HVM domU
+Chipset,Intel 440FX- 82441FX PMC
+Memory,4096MB
+Disk,40GB
+Graphics,Cirrus Logic GD 5446
+OS,Ubuntu 14.04
+Kernel,3.13.0-73-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+System Layer,Xen HVM domU 4.2.amazon
+
+ ,"ptscpu"
+"Stream - Type: Copy",21425.15
+"Stream - Type: Scale",21025.45
+"Stream - Type: Triad",23707.61
+"Stream - Type: Add",23349.69
+"NAS Parallel Benchmarks - Test / Class: LU.A",5418.13
+"Timed MAFFT Alignment - Multiple Sequence Alignment",14.62
+"Gcrypt Library - CAMELLIA256-ECB Cipher",2713
+"John The Ripper - Traditional DES",3704667
+"John The Ripper - Blowfish",1531
+"x264 - H.264 Video Encoding",56.59
+"GraphicsMagick - HWB Color Space",114
+"GraphicsMagick - Local Adaptive Thresholding",69
+"GraphicsMagick - Sharpen",22
+"GraphicsMagick - Resizing",73
+"Himeno Benchmark - Poisson Pressure Solver",1289.93
+"7-Zip Compression - Compress Speed Test",5730
+"C-Ray - Total Time",102.09
+"Parallel BZIP2 Compression - 256MB File Compression",146.50
+"Smallpt - Global Illumination Renderer; 100 Samples",1460
+"Crafty - Elapsed Time",247.30
+"FLAC Audio Encoding - WAV To FLAC",24.26
+"LAME MP3 Encoding - WAV To MP3",41.39
+"FFmpeg - H.264 HD To NTSC DV",84.14
+"Tachyon - Total Time",193.24
+"OpenSSL - RSA 4096-bit Performance",44.83
+"Apache Benchmark - Static Web Page Serving",3130.86
+

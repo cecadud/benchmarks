@@ -1,0 +1,69 @@
+ptsmemory-14122015
+
+ ,"ptscpu","ptsdisk","ptsmemory"
+Processor,Intel Xeon E5-2670 v2 @ 2.49GHz (2 Cores),Intel Xeon E5-2670 v2 @ 2.49GHz (2 Cores),Intel Xeon E5-2670 v2 @ 2.49GHz (2 Cores)
+Motherboard,Xen HVM domU,Xen HVM domU,Xen HVM domU
+Chipset,Intel 440FX- 82441FX PMC,Intel 440FX- 82441FX PMC,Intel 440FX- 82441FX PMC
+Memory,4096MB,4096MB,4096MB
+Disk,40GB,40GB,40GB
+Graphics,Cirrus Logic GD 5446,Cirrus Logic GD 5446,Cirrus Logic GD 5446
+OS,Ubuntu 14.04,Ubuntu 14.04,Ubuntu 14.04
+Kernel,3.13.0-71-generic (x86_64),3.13.0-71-generic (x86_64),3.13.0-71-generic (x86_64)
+Compiler,GCC 4.8.4,GCC 4.8.4,GCC 4.8.4
+File-System,ext4,ext4,ext4
+System Layer,Xen HVM domU 4.2.amazon,Xen HVM domU 4.2.amazon,Xen HVM domU 4.2.amazon
+
+ ,"ptscpu","ptsdisk","ptsmemory"
+"Stream - Type: Copy",20923.08
+"Stream - Type: Scale",20935.48
+"Stream - Type: Triad",21644.40
+"Stream - Type: Add",21375.74
+"NAS Parallel Benchmarks - Test / Class: LU.A",5051.77
+"Timed MAFFT Alignment - Multiple Sequence Alignment",14.96
+"Gcrypt Library - CAMELLIA256-ECB Cipher",2917
+"John The Ripper - Traditional DES",3830333
+"John The Ripper - Blowfish",1564
+"x264 - H.264 Video Encoding",48.95
+"GraphicsMagick - HWB Color Space",114
+"GraphicsMagick - Local Adaptive Thresholding",69
+"GraphicsMagick - Sharpen",23
+"GraphicsMagick - Resizing",75
+"Himeno Benchmark - Poisson Pressure Solver",1249.59
+"7-Zip Compression - Compress Speed Test",6216
+"C-Ray - Total Time",128.13
+"Parallel BZIP2 Compression - 256MB File Compression",147.33
+"Smallpt - Global Illumination Renderer; 100 Samples",1562
+"Crafty - Elapsed Time",251.66
+"FLAC Audio Encoding - WAV To FLAC",24.28
+"LAME MP3 Encoding - WAV To MP3",41.85
+"FFmpeg - H.264 HD To NTSC DV",85.21
+"Tachyon - Total Time",188.99
+"OpenSSL - RSA 4096-bit Performance",42.43
+"Apache Benchmark - Static Web Page Serving",2742.36,12147.49
+"AIO-Stress - Random Write",136.14
+"SQLite - Timed SQLite Insertions",34.43
+"FS-Mark - 1000 Files, 1MB Size",47.70
+"Dbench - 12 Clients",289.79
+"Dbench - 48 Clients",35.08
+"Dbench - 128 Clients",6.80
+"Dbench - 1 Clients",17.68
+"IOzone - 8GB Read Performance",5.12
+"IOzone - 8GB Write Performance",5.11
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",4893.80
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",0.44
+"Compile Bench - Test: Compile",6.68
+"Compile Bench - Test: Initial Create",46.34
+"Compile Bench - Test: Read Compiled Tree",553.26
+"Unpacking The Linux Kernel - linux-2.6.32.tar.bz2",17.21
+"PostMark - Disk Transaction Performance",3472
+"Gzip Compression - 2GB File Compression",16.70
+"RAMspeed SMP - Integer Add",20181.66
+"RAMspeed SMP - Integer Copy",21049.65
+"RAMspeed SMP - Integer Scale",20799.16
+"RAMspeed SMP - Floating-Point Add",19755.62
+"Stream - Add",21804.19
+"Stream - Copy",21421.01
+"Stream - Scale",21358.57
+"CacheBench - Read Cache",2435.58
+"CacheBench - Write Cache",8695.88
+

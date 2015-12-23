@@ -1,0 +1,23 @@
+ptsmemory-17112015
+
+ ,"ptsmemory"
+Processor,Intel Xeon E5-2650 0 @ 1.80GHz (2 Cores)
+Memory,8192MB
+Disk,8GB
+OS,Ubuntu 14.04
+Kernel,3.13.0-66-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+System Layer,Xen 3.4.3.amazon Hypervisor
+
+ ,"ptsmemory"
+"RAMspeed SMP - Integer Add",15530.76
+"RAMspeed SMP - Integer Copy",14891.76
+"RAMspeed SMP - Integer Scale",14853.85
+"RAMspeed SMP - Floating-Point Add",12817.71
+"Stream - Add",15497.34
+"Stream - Copy",14876.50
+"Stream - Scale",15238.01
+"CacheBench - Read Cache",1512.45
+"CacheBench - Write Cache",6717.29
+
