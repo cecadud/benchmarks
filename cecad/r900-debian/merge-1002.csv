@@ -1,0 +1,64 @@
+ptsmemory-26082015
+
+ ,"ptscpu","ptsdisk","ptsmemory"
+Processor,4 x Intel Xeon E7450 @ 2.39GHz (24 Cores),4 x Intel Xeon E7450 @ 2.39GHz (24 Cores),4 x Intel Xeon E7450 @ 2.39GHz (24 Cores)
+Motherboard,Dell 0X947H,Dell 0X947H,Dell 0X947H
+Chipset,Intel 7300 MCH,Intel 7300 MCH,Intel 7300 MCH
+Memory,32 x 8192 MB DDR2-667MHz,32 x 8192 MB DDR2-667MHz,32 x 8192 MB DDR2-667MHz
+Disk,73GB PERC 6/i + 2 x 1999GB MD3000,73GB PERC 6/i + 2 x 1999GB MD3000,73GB PERC 6/i + 2 x 1999GB MD3000
+Graphics,AMD ES1000 128MB,AMD ES1000 128MB,AMD ES1000 128MB
+Monitor,Smart Cable,Smart Cable,Smart Cable
+Network,Broadcom NetXtreme II BCM5708 Gigabit,Broadcom NetXtreme II BCM5708 Gigabit,Broadcom NetXtreme II BCM5708 Gigabit
+OS,Debian 8.1,Debian 8.1,Debian 8.1
+Kernel,3.16.0-4-amd64 (x86_64),3.16.0-4-amd64 (x86_64),3.16.0-4-amd64 (x86_64)
+Compiler,GCC 4.9.2,GCC 4.9.2,GCC 4.9.2
+File-System,ext4,ext4,ext4
+Screen Resolution,1024x768,1024x768,1024x768
+
+ ,"ptscpu","ptsdisk","ptsmemory"
+"Stream - Type: Copy",7853.06
+"Stream - Type: Scale",7761.62
+"Stream - Type: Triad",8157.37
+"Stream - Type: Add",8058.67
+"NAS Parallel Benchmarks - Test / Class: LU.A",12188.28
+"Timed MAFFT Alignment - Multiple Sequence Alignment",7.24
+"Gcrypt Library - CAMELLIA256-ECB Cipher",3837
+"TSCP - AI Chess Performance",443817
+"John The Ripper - Traditional DES",51983000
+"John The Ripper - Blowfish",13566
+"TTSIOD 3D Renderer - Phong Rendering With Soft-Shadow Mapping",72.07
+"x264 - H.264 Video Encoding",205.56
+"GraphicsMagick - HWB Color Space",96
+"GraphicsMagick - Local Adaptive Thresholding",42
+"GraphicsMagick - Sharpen",86
+"GraphicsMagick - Resizing",85
+"Himeno Benchmark - Poisson Pressure Solver",701.33
+"7-Zip Compression - Compress Speed Test",23910
+"C-Ray - Total Time",9.75
+"Parallel BZIP2 Compression - 256MB File Compression",3.89
+"Smallpt - Global Illumination Renderer; 100 Samples",44
+"Crafty - Elapsed Time",155.79
+"FLAC Audio Encoding - WAV To FLAC",27.15
+"LAME MP3 Encoding - WAV To MP3",29.60
+"FFmpeg - H.264 HD To NTSC DV",30.43
+"OpenSSL - RSA 4096-bit Performance",1105.93
+"Apache Benchmark - Static Web Page Serving",10862.81
+"AIO-Stress - Random Write",757.86
+"SQLite - Timed SQLite Insertions",6.03
+"FS-Mark - 1000 Files, 1MB Size",126.10
+"Dbench - 12 Clients",1325.46
+"Dbench - 48 Clients",1654.01
+"Dbench - 128 Clients",1294.21
+"Dbench - 1 Clients",306.31
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",2118.15
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",2.84
+"RAMspeed SMP - Integer Add",4005.89
+"RAMspeed SMP - Integer Copy",4019.53
+"RAMspeed SMP - Integer Scale",3765.81
+"RAMspeed SMP - Floating-Point Add",3973.17
+"Stream - Add",7495.54
+"Stream - Copy",7294.39
+"Stream - Scale",7222.69
+"CacheBench - Read Cache",1803.47
+"CacheBench - Write Cache",7990.61
+

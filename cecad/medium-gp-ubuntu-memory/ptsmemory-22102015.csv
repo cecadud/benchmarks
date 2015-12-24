@@ -1,0 +1,22 @@
+ptsmemory-22102015
+
+ ,"ptsmemory"
+Processor,2 x Intel Core i7 9xx (Nehalem Class Core i7) @ 2.93GHz (2 Cores)
+Motherboard,OpenStack Foundation Nova v2014.2.3
+Chipset,Intel 440FX- 82441FX PMC
+Memory,4096MB
+Disk,40GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,Ubuntu 14.04
+Kernel,3.13.0-66-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+
+ ,"ptsmemory"
+"Stream - Add",7018.91
+"Stream - Copy",6236.33
+"Stream - Scale",6182.86
+"CacheBench - Read Cache",2529.21
+"CacheBench - Write Cache",12458.36
+

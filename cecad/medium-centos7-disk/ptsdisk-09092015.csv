@@ -1,0 +1,27 @@
+ptsdisk-09092015
+
+ ,"ptsdisk"
+Processor,2 x Intel Core i7 9xx (Nehalem Class Core i7) @ 2.93GHz (2 Cores)
+Motherboard,OpenStack Foundation Nova v2014.2.2
+Memory,1 x 4096 MB RAM
+Disk,40GB
+OS,CentOS Linux 7
+Kernel,3.10.0-229.11.1.el7.x86_64 (x86_64)
+Compiler,GCC 4.8.3 20140911
+File-System,xfs
+Screen Resolution,1024x768
+System Layer,KVM
+
+ ,"ptsdisk"
+"AIO-Stress - Random Write",203.33
+"SQLite - Timed SQLite Insertions",23.60
+"Dbench - 12 Clients",670.14
+"Dbench - 48 Clients",350.19
+"Dbench - 128 Clients",274.85
+"Dbench - 1 Clients",212.90
+"IOzone - 8GB Read Performance",130.75
+"IOzone - 8GB Write Performance",164.06
+"PostMark - Disk Transaction Performance",3521
+"Gzip Compression - 2GB File Compression",25.40
+
+

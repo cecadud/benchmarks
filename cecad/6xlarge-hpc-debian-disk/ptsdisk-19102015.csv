@@ -1,0 +1,36 @@
+ptsdisk-19102015
+
+ ,"ptsdisk"
+Processor,24 x Intel Core 2 Duo P9xxx (Penryn Class Core 2) @ 2.39GHz (24 Cores)
+Motherboard,OpenStack Foundation Nova v2014.2.3
+Chipset,Intel 440FX- 82441FX PMC
+Memory,3 x 16384 MB RAM
+Disk,157GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,Debian 8.2
+Kernel,3.16.0-4-amd64 (x86_64)
+Compiler,GCC 4.9.2
+File-System,ext4
+System Layer,KVM
+
+ ,"ptsdisk"
+"AIO-Stress - Random Write",600.60
+"SQLite - Timed SQLite Insertions",704.27
+"FS-Mark - 1000 Files, 1MB Size",13.42
+"Dbench - 12 Clients",57.69
+"Dbench - 48 Clients",164.68
+"Dbench - 128 Clients",189.27
+"Dbench - 1 Clients",71.40
+"IOzone - 8GB Read Performance",1558.07
+"IOzone - 8GB Write Performance",61.37
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",1927.14
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",1.25
+"Compile Bench - Test: Compile",369.66
+"Compile Bench - Test: Initial Create",76.54
+"Compile Bench - Test: Read Compiled Tree",232.06
+"Unpacking The Linux Kernel - linux-2.6.32.tar.bz2",18.53
+"PostMark - Disk Transaction Performance",1346
+"Gzip Compression - 2GB File Compression",25.57
+"Apache Benchmark - Static Web Page Serving",3900.70
+

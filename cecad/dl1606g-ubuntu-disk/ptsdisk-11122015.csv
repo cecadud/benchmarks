@@ -1,0 +1,36 @@
+ptsdisk-11122015
+
+ ,"ptsdisk"
+Processor,2 x Intel Xeon E5504 @ 2.00GHz (8 Cores)
+Motherboard,HP ProLiant DL160 G6
+Chipset,Intel 5520 I/O + ICH10R
+Memory,24576MB
+Disk,250GB LOGICAL VOLUME
+Graphics,Matrox s MGA G200e [Pilot] (SEP1)
+Network,Intel 82576 Gigabit Connection
+OS,Ubuntu 14.04
+Kernel,3.13.0-71-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+Screen Resolution,1024x768
+
+ ,"ptsdisk"
+"AIO-Stress - Random Write",1280.53
+"SQLite - Timed SQLite Insertions",563.27
+"FS-Mark - 1000 Files, 1MB Size",17.90
+"Dbench - 12 Clients",53.09
+"Dbench - 48 Clients",66.19
+"Dbench - 128 Clients",58.68
+"Dbench - 1 Clients",10.23
+"IOzone - 8GB Read Performance",4001.12
+"IOzone - 8GB Write Performance",101.50
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",9161.08
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",0.58
+"Compile Bench - Test: Compile",389.15
+"Compile Bench - Test: Initial Create",134.80
+"Compile Bench - Test: Read Compiled Tree",954.45
+"Unpacking The Linux Kernel - linux-2.6.32.tar.bz2",17.22
+"PostMark - Disk Transaction Performance",2351
+"Gzip Compression - 2GB File Compression",26.62
+"Apache Benchmark - Static Web Page Serving",12620.16
+

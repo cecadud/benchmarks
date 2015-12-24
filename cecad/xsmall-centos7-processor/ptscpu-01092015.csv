@@ -1,0 +1,23 @@
+ptscpu-01092015
+
+ ,"ptscpu"
+Processor,Intel Core i7 9xx @ 2.93GHz (1 Core)
+Motherboard,OpenStack Foundation Nova v2014.2.2
+Memory,1 x 1024 MB RAM
+Disk,40GB
+OS,CentOS Linux 7
+Kernel,3.10.0-229.11.1.el7.x86_64 (x86_64)
+Compiler,GCC 4.8.3 20140911
+File-System,xfs
+Screen Resolution,1024x768
+System Layer,KVM
+
+ ,"ptscpu"
+"TSCP - AI Chess Performance",15795
+"John The Ripper - Traditional DES",1749333
+"John The Ripper - Blowfish",872
+"C-Ray - Total Time",124.64
+"LAME MP3 Encoding - WAV To MP3",19.76
+"OpenSSL - RSA 4096-bit Performance",70.70
+
+

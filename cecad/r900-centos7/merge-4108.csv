@@ -1,0 +1,49 @@
+pstaio-stress-10082015
+
+ ,"ptsmemory","ptsdisk","ptscpu","ptscachebench","aio-stress"
+Processor,4 x Intel Xeon E7450 @ 2.39GHz (24 Cores),4 x Intel Xeon E7450 @ 2.39GHz (24 Cores),4 x Intel Xeon E7450 @ 2.39GHz (24 Cores),4 x Intel Xeon E7450 @ 2.39GHz (24 Cores),4 x Intel Xeon E7450 @ 2.39GHz (24 Cores)
+Motherboard,Dell 0X947H,Dell 0X947H,Dell 0X947H,Dell 0X947H,Dell 0X947H
+Memory,32 x 8192 MB DDR2-667MHz,32 x 8192 MB DDR2-667MHz,32 x 8192 MB DDR2-667MHz,32 x 8192 MB DDR2-667MHz,32 x 8192 MB DDR2-667MHz
+Disk,73GB PERC 6/i + 2 x 1999GB MD3000,73GB PERC 6/i + 2 x 1999GB MD3000,73GB PERC 6/i + 2 x 1999GB MD3000,73GB PERC 6/i + 2 x 1999GB MD3000,73GB PERC 6/i + 2 x 1999GB MD3000
+Graphics,128MB,128MB,128MB,128MB,128MB
+Monitor,Smart Cable,Smart Cable,Smart Cable,Smart Cable,Smart Cable
+OS,CentOS Linux 7,CentOS Linux 7,CentOS Linux 7,CentOS Linux 7,CentOS Linux 7
+Kernel,3.10.0-229.7.2.el7.x86_64 (x86_64),3.10.0-229.7.2.el7.x86_64 (x86_64),3.10.0-229.7.2.el7.x86_64 (x86_64),3.10.0-229.7.2.el7.x86_64 (x86_64),3.10.0-229.7.2.el7.x86_64 (x86_64)
+Compiler,GCC 4.8.3 20140911,GCC 4.8.3 20140911,GCC 4.8.3 20140911,GCC 4.8.3 20140911,GCC 4.8.3 20140911
+File-System,xfs,xfs,xfs,xfs,xfs
+Screen Resolution,1024x768,1024x768,1024x768,1024x768,1024x768
+
+ ,"ptsmemory","ptsdisk","ptscpu","ptscachebench","aio-stress"
+"RAMspeed SMP - Type: Add - Benchmark: Integer",4142.48
+"RAMspeed SMP - Type: Copy - Benchmark: Integer",4201.08
+"RAMspeed SMP - Type: Scale - Benchmark: Integer",4192.89
+"RAMspeed SMP - Type: Triad - Benchmark: Integer",4045.77
+"RAMspeed SMP - Type: Average - Benchmark: Integer",4147.70
+"RAMspeed SMP - Type: Add - Benchmark: Floating Point",4309.82
+"RAMspeed SMP - Type: Copy - Benchmark: Floating Point",4092.09
+"RAMspeed SMP - Type: Scale - Benchmark: Floating Point",4092.92
+"RAMspeed SMP - Type: Triad - Benchmark: Floating Point",4300.28
+"RAMspeed SMP - Type: Average - Benchmark: Floating Point",4199.54
+"AIO-Stress - Random Write",780.73
+"SQLite - Timed SQLite Insertions",5.97
+"Dbench - 12 Clients",1981.37
+"Dbench - 48 Clients",1708.32
+"Dbench - 128 Clients",505.34
+"Dbench - 1 Clients",309.18
+"IOzone - 8GB Read Performance",1515.15
+"IOzone - 8GB Write Performance",91.59
+"PostMark - Disk Transaction Performance",1633
+"Gzip Compression - 2GB File Compression",22.61
+"John The Ripper - Traditional DES",57684333
+"John The Ripper - Blowfish",15301
+"C-Ray - Total Time",8.46
+"Parallel BZIP2 Compression - 256MB File Compression",3.71
+"Smallpt - Global Illumination Renderer; 100 Samples",42
+"FLAC Audio Encoding - WAV To FLAC",24.17
+"LAME MP3 Encoding - WAV To MP3",28.14
+"OpenSSL - RSA 4096-bit Performance",1213.50
+"CacheBench - Test: Read",2022.47
+"CacheBench - Test: Write",8961.09
+"CacheBench - Test: Read / Modify / Write",13390.63
+"AIO-Stress - Test: Random Write",786.56
+

@@ -1,0 +1,46 @@
+ptscpu-01102015
+
+ ,"ptscpu"
+Processor,Intel Core 2 Duo P9xxx @ 2.39GHz (1 Core)
+Motherboard,OpenStack Foundation Nova v2014.2.3
+Chipset,Intel 440FX- 82441FX PMC
+Memory,1 x 2048 MB RAM
+Disk,19GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,Debian 8.2
+Kernel,3.16.0-4-amd64 (x86_64)
+Compiler,GCC 4.9.2
+File-System,ext4
+System Layer,KVM
+
+ ,"ptscpu"
+"Stream - Type: Copy",2093.23
+"Stream - Type: Scale",2124.44
+"Stream - Type: Triad",2259.89
+"Stream - Type: Add",2267.78
+"NAS Parallel Benchmarks - Test / Class: LU.A",1049.94
+"Timed MAFFT Alignment - Multiple Sequence Alignment",45.57
+"Gcrypt Library - CAMELLIA256-ECB Cipher",3860
+"TSCP - AI Chess Performance",440904
+"John The Ripper - Traditional DES",2260333
+"John The Ripper - Blowfish",567
+"TTSIOD 3D Renderer - Phong Rendering With Soft-Shadow Mapping",17.48
+"x264 - H.264 Video Encoding",15.15
+"GraphicsMagick - HWB Color Space",51
+"GraphicsMagick - Local Adaptive Thresholding",37
+"GraphicsMagick - Sharpen",23
+"GraphicsMagick - Resizing",41
+"Himeno Benchmark - Poisson Pressure Solver",698.81
+"7-Zip Compression - Compress Speed Test",1606
+"C-Ray - Total Time",229.18
+"Parallel BZIP2 Compression - 256MB File Compression",65.92
+"Smallpt - Global Illumination Renderer; 100 Samples",1060
+"Crafty - Elapsed Time",157.47
+"FLAC Audio Encoding - WAV To FLAC",27.50
+"LAME MP3 Encoding - WAV To MP3",29.88
+"FFmpeg - H.264 HD To NTSC DV",60.55
+"Tachyon - Total Time",182.74
+"OpenSSL - RSA 4096-bit Performance",46.10
+"Apache Benchmark - Static Web Page Serving",3194.95
+

@@ -1,0 +1,26 @@
+ptsmemory-16102015
+
+ ,"ptsmemory"
+Processor,Intel Core i7 9xx @ 2.93GHz (1 Core)
+Motherboard,OpenStack Foundation Nova v2014.2.3
+Chipset,Intel 440FX- 82441FX PMC
+Memory,1 x 2048 MB RAM
+Disk,38GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,CentOS 6.7
+Kernel,2.6.32-573.7.1.el6.x86_64 (x86_64)
+Compiler,GCC 4.4.7 20120313
+File-System,ext4
+
+ ,"ptsmemory"
+"RAMspeed SMP - Integer Add",7110.08
+"RAMspeed SMP - Integer Copy",6772.35
+"RAMspeed SMP - Integer Scale",6339.95
+"RAMspeed SMP - Floating-Point Add",6820
+"Stream - Add",6779.26
+"Stream - Copy",6036.03
+"Stream - Scale",6043.97
+"CacheBench - Read Cache",2511.25
+"CacheBench - Write Cache",8292.72
+

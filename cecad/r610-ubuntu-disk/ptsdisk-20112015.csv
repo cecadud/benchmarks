@@ -1,0 +1,36 @@
+ptsdisk-20112015
+
+ ,"ptsdisk"
+Processor,2 x Intel Xeon X5570 @ 2.93GHz (16 Cores)
+Motherboard,Dell 0XDN97
+Chipset,Intel 5500 I/O + ICH9
+Memory,16384MB
+Disk,73GB PERC 6/i
+Graphics,Matrox s MGA G200eW WPCM450
+Network,Broadcom NetXtreme II BCM5709 Gigabit
+OS,Ubuntu 14.04
+Kernel,3.13.0-68-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+Screen Resolution,1024x768
+
+ ,"ptsdisk"
+"AIO-Stress - Random Write",1689.10
+"SQLite - Timed SQLite Insertions",6.80
+"FS-Mark - 1000 Files, 1MB Size",116.98
+"Dbench - 12 Clients",1413.01
+"Dbench - 48 Clients",1007.90
+"Dbench - 128 Clients",354.84
+"Dbench - 1 Clients",324.38
+"IOzone - 8GB Read Performance",5019.43
+"IOzone - 8GB Write Performance",108.63
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",10256.51
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",1.00
+"Compile Bench - Test: Compile",397.38
+"Compile Bench - Test: Initial Create",194.95
+"Compile Bench - Test: Read Compiled Tree",1352.67
+"Unpacking The Linux Kernel - linux-2.6.32.tar.bz2",11.27
+"PostMark - Disk Transaction Performance",3751
+"Gzip Compression - 2GB File Compression",16.44
+"Apache Benchmark - Static Web Page Serving",19563.10
+

@@ -1,0 +1,21 @@
+ptscpu-26082015
+
+ ,"ptscpu"
+Processor,Intel Core 2 Duo P9xxx @ 2.39GHz (1 Core)
+Motherboard,OpenStack Foundation Nova v2014.2.3
+Memory,2048MB
+Disk,20GB
+OS,CentOS Linux 7
+Kernel,3.10.0-229.11.1.el7.x86_64 (x86_64)
+Compiler,GCC 4.8.3 20140911
+File-System,xfs
+Screen Resolution,1024x768
+System Layer,KVM
+
+ ,"ptscpu"
+"John The Ripper - Traditional DES",2546667
+"John The Ripper - Blowfish",649
+"C-Ray - Total Time",195.63
+"LAME MP3 Encoding - WAV To MP3",29.40
+"OpenSSL - RSA 4096-bit Performance",51.17
+

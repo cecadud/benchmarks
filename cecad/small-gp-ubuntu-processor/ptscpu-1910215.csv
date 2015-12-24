@@ -1,0 +1,41 @@
+ptscpu-19102015
+
+ ,"ptscpu"
+Processor,Intel Core i7 9xx @ 2.93GHz (1 Core)
+Motherboard,OpenStack Foundation Nova v2014.2.3
+Chipset,Intel 440FX- 82441FX PMC
+Memory,1 x 2048 MB RAM
+Disk,20GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,Ubuntu 14.04
+Kernel,3.13.0-65-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+
+ ,"ptscpu"
+"NAS Parallel Benchmarks - Test / Class: LU.A",2682.85
+"Timed MAFFT Alignment - Multiple Sequence Alignment",27.00
+"Gcrypt Library - CAMELLIA256-ECB Cipher",3503
+"TSCP - AI Chess Performance",695873
+"John The Ripper - Traditional DES",1748333
+"John The Ripper - Blowfish",891
+"x264 - H.264 Video Encoding",26.58
+"GraphicsMagick - HWB Color Space",84
+"GraphicsMagick - Local Adaptive Thresholding",70
+"GraphicsMagick - Sharpen",15
+"GraphicsMagick - Resizing",51
+"Himeno Benchmark - Poisson Pressure Solver",1301.18
+"7-Zip Compression - Compress Speed Test",3202
+"C-Ray - Total Time",124.37
+"Parallel BZIP2 Compression - 256MB File Compression",44.65
+"Smallpt - Global Illumination Renderer; 100 Samples",668
+"Crafty - Elapsed Time",92.94
+"FLAC Audio Encoding - WAV To FLAC",10.78
+"LAME MP3 Encoding - WAV To MP3",19.45
+"FFmpeg - H.264 HD To NTSC DV",35.94
+"Tachyon - Total Time",93.48
+"OpenSSL - RSA 4096-bit Performance",71.03
+"Apache Benchmark - Static Web Page Serving",6343.94
+
+

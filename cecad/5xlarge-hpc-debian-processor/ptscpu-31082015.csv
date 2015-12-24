@@ -1,0 +1,42 @@
+ptscpu-31082015
+
+ ,"ptscpu"
+Processor,16 x Intel Core 2 Duo P9xxx (Penryn Class Core 2) @ 2.39GHz (16 Cores)
+Motherboard,OpenStack Foundation Nova v2014.2.3
+Chipset,Intel 440FX- 82441FX PMC
+Memory,2 x 16384 MB RAM
+Disk,157GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,Debian 8.1
+Kernel,3.16.0-4-amd64 (x86_64)
+Compiler,GCC 4.9.2
+File-System,ext4
+System Layer,KVM
+
+ ,"ptscpu"
+"Stream - Type: Copy",6975.47
+"Stream - Type: Scale",6884.98
+"Stream - Type: Triad",7389.18
+"Stream - Type: Add",6929.96
+"NAS Parallel Benchmarks - Test / Class: LU.A",8889.68
+"Timed MAFFT Alignment - Multiple Sequence Alignment",14.71
+"Gcrypt Library - CAMELLIA256-ECB Cipher",3483
+"TSCP - AI Chess Performance",494769
+"John The Ripper - Traditional DES",34633333
+"John The Ripper - Blowfish",9532
+"TTSIOD 3D Renderer - Phong Rendering With Soft-Shadow Mapping",69.20
+"GraphicsMagick - HWB Color Space",85
+"GraphicsMagick - Local Adaptive Thresholding",39
+"GraphicsMagick - Sharpen",73
+"GraphicsMagick - Resizing",75
+"Himeno Benchmark - Poisson Pressure Solver",714.48
+"Smallpt - Global Illumination Renderer; 100 Samples",61
+"Crafty - Elapsed Time",145.17
+"FLAC Audio Encoding - WAV To FLAC",24.61
+"LAME MP3 Encoding - WAV To MP3",26.83
+"FFmpeg - H.264 HD To NTSC DV",30.85
+"Tachyon - Total Time",11.97
+"OpenSSL - RSA 4096-bit Performance",818.93
+"Apache Benchmark - Static Web Page Serving",5035.87
+

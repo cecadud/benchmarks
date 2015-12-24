@@ -1,0 +1,27 @@
+ptsmemory-20112015
+
+ ,"ptsmemory"
+Processor,2 x Intel Xeon X5570 @ 2.93GHz (16 Cores)
+Motherboard,Dell 0XDN97
+Chipset,Intel 5500 I/O + ICH9
+Memory,16384MB
+Disk,73GB PERC 6/i
+Graphics,Matrox s MGA G200eW WPCM450
+Network,Broadcom NetXtreme II BCM5709 Gigabit
+OS,Ubuntu 14.04
+Kernel,3.13.0-68-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+Screen Resolution,1024x768
+
+ ,"ptsmemory"
+"RAMspeed SMP - Integer Add",11275.17
+"RAMspeed SMP - Integer Copy",9706.16
+"RAMspeed SMP - Integer Scale",10887.86
+"RAMspeed SMP - Floating-Point Add",13429.17
+"Stream - Add",11282.58
+"Stream - Copy",10678.91
+"Stream - Scale",10305.76
+"CacheBench - Read Cache",2536.79
+"CacheBench - Write Cache",12492.10
+

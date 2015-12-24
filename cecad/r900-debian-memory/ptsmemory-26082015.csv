@@ -1,0 +1,28 @@
+ptsmemory-26082015
+
+ ,"ptsmemory"
+Processor,4 x Intel Xeon E7450 @ 2.39GHz (24 Cores)
+Motherboard,Dell 0X947H
+Chipset,Intel 7300 MCH
+Memory,32 x 8192 MB DDR2-667MHz
+Disk,73GB PERC 6/i + 2 x 1999GB MD3000
+Graphics,AMD ES1000 128MB
+Monitor,Smart Cable
+Network,Broadcom NetXtreme II BCM5708 Gigabit
+OS,Debian 8.1
+Kernel,3.16.0-4-amd64 (x86_64)
+Compiler,GCC 4.9.2
+File-System,ext4
+Screen Resolution,1024x768
+
+ ,"ptsmemory"
+"RAMspeed SMP - Integer Add",4005.89
+"RAMspeed SMP - Integer Copy",4019.53
+"RAMspeed SMP - Integer Scale",3765.81
+"RAMspeed SMP - Floating-Point Add",3973.17
+"Stream - Add",7495.54
+"Stream - Copy",7294.39
+"Stream - Scale",7222.69
+"CacheBench - Read Cache",1803.47
+"CacheBench - Write Cache",7990.61
+

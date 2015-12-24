@@ -1,0 +1,27 @@
+ptsmemory-03092015
+
+ ,"ptsmemory"
+Processor,2 x Intel Core 2 Duo P9xxx (Penryn Class Core 2) @ 2.39GHz (2 Cores)
+Motherboard,OpenStack Foundation Nova v2014.2.3
+Chipset,Intel 440FX- 82441FX PMC
+Memory,1 x 4096 MB RAM
+Disk,39GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,Debian 8.1
+Kernel,3.16.0-4-amd64 (x86_64)
+Compiler,GCC 4.9.2
+File-System,ext4
+System Layer,KVM
+
+ ,"ptsmemory"
+"RAMspeed SMP - Integer Add",3930.23
+"RAMspeed SMP - Integer Copy",3907.84
+"RAMspeed SMP - Integer Scale",3673.66
+"RAMspeed SMP - Floating-Point Add",3846.65
+"Stream - Add",4286.22
+"Stream - Copy",4058.04
+"Stream - Scale",4083.84
+"CacheBench - Read Cache",1790.47
+"CacheBench - Write Cache",7943.56
+

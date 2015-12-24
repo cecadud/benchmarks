@@ -1,0 +1,41 @@
+ptscpu-30112015
+
+ ,"ptscpu"
+Processor,8 x Intel Core 2 Duo P9xxx (Penryn Class Core 2) @ 2.39GHz (8 Cores)
+Motherboard,OpenStack Foundation Nova v2015.1.2
+Chipset,Intel 440FX- 82441FX PMC
+Memory,16384MB
+Disk,157GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,Debian 8.2
+Kernel,3.16.0-4-amd64 (x86_64)
+Compiler,GCC 4.9.2
+File-System,ext4
+System Layer,KVM
+
+ ,"ptscpu"
+"Stream - Type: Copy",7620.84
+"Stream - Type: Scale",7427.93
+"Stream - Type: Triad",7943.02
+"Stream - Type: Add",7999.80
+"NAS Parallel Benchmarks - Test / Class: LU.A",5783.26
+"Timed MAFFT Alignment - Multiple Sequence Alignment",11.08
+"Gcrypt Library - CAMELLIA256-ECB Cipher",3433
+"TSCP - AI Chess Performance",495749
+"John The Ripper - Traditional DES",19745333
+"John The Ripper - Blowfish",5071
+"x264 - H.264 Video Encoding",93.35
+"Himeno Benchmark - Poisson Pressure Solver",736.58
+"7-Zip Compression - Compress Speed Test",11213
+"C-Ray - Total Time",25.78
+"Parallel BZIP2 Compression - 256MB File Compression",8.68
+"Smallpt - Global Illumination Renderer; 100 Samples",119
+"Crafty - Elapsed Time",140.23
+"FLAC Audio Encoding - WAV To FLAC",24.37
+"LAME MP3 Encoding - WAV To MP3",26.70
+"FFmpeg - H.264 HD To NTSC DV",28.53
+"Tachyon - Total Time",20.79
+"OpenSSL - RSA 4096-bit Performance",413.30
+"Apache Benchmark - Static Web Page Serving",6596.76
+

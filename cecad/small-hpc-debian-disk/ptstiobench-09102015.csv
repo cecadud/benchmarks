@@ -1,0 +1,82 @@
+ptstiobench-09102015
+
+ ,"ptstiobench"
+Processor,Intel Core 2 Duo P9xxx @ 2.39GHz (1 Core)
+Motherboard,OpenStack Foundation Nova v2014.2.3
+Chipset,Intel 440FX- 82441FX PMC
+Memory,1 x 2048 MB RAM
+Disk,19GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,Debian 8.2
+Kernel,3.16.0-4-amd64 (x86_64)
+Compiler,GCC 4.9.2
+File-System,ext4
+System Layer,KVM
+
+ ,"ptstiobench"
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 4",1177.62
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 8",1059.63
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 4",924.38
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 8",895.65
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 4",768.09
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 8",765.95
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 4",974.76
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 8",63.92
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 16",967.20
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 32",864.34
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 16",789.56
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 32",62.82
+"Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 4",2.52
+"Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 8",1.52
+"Threaded I/O Tester - Test: Write - Size Per Thread: 64MB - Thread Count: 4",0.43
+"Threaded I/O Tester - Test: Write - Size Per Thread: 64MB - Thread Count: 8",1.30
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 16",46.50
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 32",37.93
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 16",41.29
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 32",25.22
+"Threaded I/O Tester - Test: Write - Size Per Thread: 128MB - Thread Count: 4",2.30
+"Threaded I/O Tester - Test: Write - Size Per Thread: 128MB - Thread Count: 8",2.97
+"Threaded I/O Tester - Test: Write - Size Per Thread: 256MB - Thread Count: 4",1.88
+"Threaded I/O Tester - Test: Write - Size Per Thread: 256MB - Thread Count: 8",2.68
+"Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 16",3.11
+"Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 32",3.61
+"Threaded I/O Tester - Test: Write - Size Per Thread: 64MB - Thread Count: 16",3.15
+"Threaded I/O Tester - Test: Write - Size Per Thread: 64MB - Thread Count: 32",3.61
+"Threaded I/O Tester - Test: Write - Size Per Thread: 128MB - Thread Count: 16",3.05
+"Threaded I/O Tester - Test: Write - Size Per Thread: 128MB - Thread Count: 32",1.07
+"Threaded I/O Tester - Test: Write - Size Per Thread: 256MB - Thread Count: 16",0.59
+"Threaded I/O Tester - Test: Write - Size Per Thread: 256MB - Thread Count: 32",2.41
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 32MB - Thread Count: 4",954.54
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 32MB - Thread Count: 8",941.65
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 64MB - Thread Count: 4",932.19
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 64MB - Thread Count: 8",875.06
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 128MB - Thread Count: 4",855.04
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 128MB - Thread Count: 8",813.00
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 256MB - Thread Count: 4",762.93
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 256MB - Thread Count: 8",2.94
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 32MB - Thread Count: 16",912.85
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 32MB - Thread Count: 32",869.67
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 64MB - Thread Count: 16",820.89
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 64MB - Thread Count: 32",4.74
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 32MB - Thread Count: 4",2.80
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 32MB - Thread Count: 8",3.79
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 64MB - Thread Count: 4",2.75
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 64MB - Thread Count: 8",3.64
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 128MB - Thread Count: 16",3.78
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 128MB - Thread Count: 32",0.83
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 256MB - Thread Count: 16",0.47
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 256MB - Thread Count: 32",0.42
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 128MB - Thread Count: 4",2.73
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 128MB - Thread Count: 8",3.68
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 256MB - Thread Count: 4",2.78
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 256MB - Thread Count: 8",3.78
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 32MB - Thread Count: 16",3.92
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 32MB - Thread Count: 32",2.37
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 64MB - Thread Count: 16",2.01
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 64MB - Thread Count: 32",2.03
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 128MB - Thread Count: 16",2.76
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 128MB - Thread Count: 32",1.61
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 256MB - Thread Count: 16",0.67
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 256MB - Thread Count: 32",1.36
+

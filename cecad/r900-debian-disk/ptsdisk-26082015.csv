@@ -1,0 +1,28 @@
+ptsdisk-26082015
+
+ ,"ptsdisk"
+Processor,4 x Intel Xeon E7450 @ 2.39GHz (24 Cores)
+Motherboard,Dell 0X947H
+Chipset,Intel 7300 MCH
+Memory,32 x 8192 MB DDR2-667MHz
+Disk,73GB PERC 6/i + 2 x 1999GB MD3000
+Graphics,AMD ES1000 128MB
+Monitor,Smart Cable
+Network,Broadcom NetXtreme II BCM5708 Gigabit
+OS,Debian 8.1
+Kernel,3.16.0-4-amd64 (x86_64)
+Compiler,GCC 4.9.2
+File-System,ext4
+Screen Resolution,1024x768
+
+ ,"ptsdisk"
+"AIO-Stress - Random Write",757.86
+"SQLite - Timed SQLite Insertions",6.03
+"FS-Mark - 1000 Files, 1MB Size",126.10
+"Dbench - 12 Clients",1325.46
+"Dbench - 48 Clients",1654.01
+"Dbench - 128 Clients",1294.21
+"Dbench - 1 Clients",306.31
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",2118.15
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",2.84
+

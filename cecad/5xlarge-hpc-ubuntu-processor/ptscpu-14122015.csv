@@ -1,0 +1,43 @@
+ptscpu-14122015
+
+ ,"ptscpu"
+Processor,16 x Intel Core 2 Duo P9xxx (Penryn Class Core 2) @ 2.39GHz (16 Cores)
+Motherboard,OpenStack Foundation Nova v2015.1.2
+Chipset,Intel 440FX- 82441FX PMC
+Memory,32768MB
+Disk,158GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,Ubuntu 14.04
+Kernel,3.13.0-71-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+
+ ,"ptscpu"
+"Stream - Type: Copy",6673.87
+"Stream - Type: Scale",6722.73
+"Stream - Type: Triad",6988.46
+"Stream - Type: Add",7019.69
+"NAS Parallel Benchmarks - Test / Class: LU.A",8209.48
+"Timed MAFFT Alignment - Multiple Sequence Alignment",13.51
+"Gcrypt Library - CAMELLIA256-ECB Cipher",4917
+"TSCP - AI Chess Performance",435743
+"John The Ripper - Traditional DES",33593333
+"John The Ripper - Blowfish",9267
+"GraphicsMagick - HWB Color Space",91
+"GraphicsMagick - Local Adaptive Thresholding",41
+"GraphicsMagick - Sharpen",62
+"GraphicsMagick - Resizing",82
+"Himeno Benchmark - Poisson Pressure Solver",676.41
+"7-Zip Compression - Compress Speed Test",19174
+"C-Ray - Total Time",13.90
+"Parallel BZIP2 Compression - 256MB File Compression",5.51
+"Smallpt - Global Illumination Renderer; 100 Samples",70
+"Crafty - Elapsed Time",160.12
+"FLAC Audio Encoding - WAV To FLAC",27.42
+"LAME MP3 Encoding - WAV To MP3",31.76
+"FFmpeg - H.264 HD To NTSC DV",32.19
+"Tachyon - Total Time",11.55
+"OpenSSL - RSA 4096-bit Performance",732.30
+"Apache Benchmark - Static Web Page Serving",6017.76
+

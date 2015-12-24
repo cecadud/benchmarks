@@ -1,0 +1,28 @@
+pstmemory-09102015
+
+ ,"ptsmemory"
+Processor,Intel Core i7 9xx @ 2.93GHz (1 Core)
+Motherboard,OpenStack Foundation Nova v2014.2.3
+Chipset,Intel 440FX- 82441FX PMC
+Memory,1024MB
+Disk,39GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,Debian 8.2
+Kernel,3.16.0-4-amd64 (x86_64)
+Compiler,GCC 4.9.2
+File-System,ext4
+System Layer,KVM
+
+ ,"ptsmemory"
+"RAMspeed SMP - Integer Add",7947.21
+"RAMspeed SMP - Integer Copy",7066.21
+"RAMspeed SMP - Integer Scale",7007.41
+"RAMspeed SMP - Floating-Point Add",7760.21
+"Stream - Add",7528.62
+"Stream - Copy",6810.29
+"Stream - Scale",7037.77
+"CacheBench - Read Cache",2530.55
+"CacheBench - Write Cache",12459.23
+
+

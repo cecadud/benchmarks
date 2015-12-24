@@ -1,0 +1,27 @@
+ptsmemory-11122015
+
+ ,"ptsmemory"
+Processor,2 x Intel Xeon E5504 @ 2.00GHz (8 Cores)
+Motherboard,HP ProLiant DL160 G6
+Chipset,Intel 5520 I/O + ICH10R
+Memory,24576MB
+Disk,250GB LOGICAL VOLUME
+Graphics,Matrox s MGA G200e [Pilot] (SEP1)
+Network,Intel 82576 Gigabit Connection
+OS,Ubuntu 14.04
+Kernel,3.13.0-71-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+Screen Resolution,1024x768
+
+ ,"ptsmemory"
+"RAMspeed SMP - Integer Add",13039.74
+"RAMspeed SMP - Integer Copy",14188.95
+"RAMspeed SMP - Integer Scale",13309.30
+"RAMspeed SMP - Floating-Point Add",14093.97
+"Stream - Add",17532.67
+"Stream - Copy",15999.99
+"Stream - Scale",15333.54
+"CacheBench - Read Cache",1526.15
+"CacheBench - Write Cache",7512.17
+

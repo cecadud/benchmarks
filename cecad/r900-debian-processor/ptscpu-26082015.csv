@@ -1,0 +1,46 @@
+ptscpu-26082015
+
+ ,"ptscpu"
+Processor,4 x Intel Xeon E7450 @ 2.39GHz (24 Cores)
+Motherboard,Dell 0X947H
+Chipset,Intel 7300 MCH
+Memory,32 x 8192 MB DDR2-667MHz
+Disk,73GB PERC 6/i + 2 x 1999GB MD3000
+Graphics,AMD ES1000 128MB
+Monitor,Smart Cable
+Network,Broadcom NetXtreme II BCM5708 Gigabit
+OS,Debian 8.1
+Kernel,3.16.0-4-amd64 (x86_64)
+Compiler,GCC 4.9.2
+File-System,ext4
+Screen Resolution,1024x768
+
+ ,"ptscpu"
+"Stream - Type: Copy",7853.06
+"Stream - Type: Scale",7761.62
+"Stream - Type: Triad",8157.37
+"Stream - Type: Add",8058.67
+"NAS Parallel Benchmarks - Test / Class: LU.A",12188.28
+"Timed MAFFT Alignment - Multiple Sequence Alignment",7.24
+"Gcrypt Library - CAMELLIA256-ECB Cipher",3837
+"TSCP - AI Chess Performance",443817
+"John The Ripper - Traditional DES",51983000
+"John The Ripper - Blowfish",13566
+"TTSIOD 3D Renderer - Phong Rendering With Soft-Shadow Mapping",72.07
+"x264 - H.264 Video Encoding",205.56
+"GraphicsMagick - HWB Color Space",96
+"GraphicsMagick - Local Adaptive Thresholding",42
+"GraphicsMagick - Sharpen",86
+"GraphicsMagick - Resizing",85
+"Himeno Benchmark - Poisson Pressure Solver",701.33
+"7-Zip Compression - Compress Speed Test",23910
+"C-Ray - Total Time",9.75
+"Parallel BZIP2 Compression - 256MB File Compression",3.89
+"Smallpt - Global Illumination Renderer; 100 Samples",44
+"Crafty - Elapsed Time",155.79
+"FLAC Audio Encoding - WAV To FLAC",27.15
+"LAME MP3 Encoding - WAV To MP3",29.60
+"FFmpeg - H.264 HD To NTSC DV",30.43
+"OpenSSL - RSA 4096-bit Performance",1105.93
+"Apache Benchmark - Static Web Page Serving",10862.81
+

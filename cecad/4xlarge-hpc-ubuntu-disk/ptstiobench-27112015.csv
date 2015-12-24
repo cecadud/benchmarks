@@ -1,0 +1,81 @@
+ptstiobench-27112015
+
+ ,"ptstiobench"
+Processor,8 x Intel Core 2 Duo P9xxx (Penryn Class Core 2) @ 2.39GHz (8 Cores)
+Motherboard,OpenStack Foundation Nova v2015.1.2
+Chipset,Intel 440FX- 82441FX PMC
+Memory,24576MB
+Disk,158GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,Ubuntu 14.04
+Kernel,3.13.0-68-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+
+ ,"ptstiobench"
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 4",2296.85
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 8",3104.97
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 4",2266.23
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 8",2827.60
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 4",2267.65
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 8",2293.97
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 4",2140.37
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 8",1458.06
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 16",3322.54
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 32",3415.17
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 16",2683.72
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 32",2645.00
+"Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 4",0.41
+"Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 8",0.62
+"Threaded I/O Tester - Test: Write - Size Per Thread: 64MB - Thread Count: 4",0.38
+"Threaded I/O Tester - Test: Write - Size Per Thread: 64MB - Thread Count: 8",0.48
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 16",1792.91
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 32",2236.80
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 16",1569.52
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 32",1824.27
+"Threaded I/O Tester - Test: Write - Size Per Thread: 128MB - Thread Count: 4",0.23
+"Threaded I/O Tester - Test: Write - Size Per Thread: 128MB - Thread Count: 8",0.40
+"Threaded I/O Tester - Test: Write - Size Per Thread: 256MB - Thread Count: 4",0.21
+"Threaded I/O Tester - Test: Write - Size Per Thread: 256MB - Thread Count: 8",0.51
+"Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 16",0.86
+"Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 32",1.39
+"Threaded I/O Tester - Test: Write - Size Per Thread: 64MB - Thread Count: 16",0.88
+"Threaded I/O Tester - Test: Write - Size Per Thread: 64MB - Thread Count: 32",1.37
+"Threaded I/O Tester - Test: Write - Size Per Thread: 128MB - Thread Count: 16",0.84
+"Threaded I/O Tester - Test: Write - Size Per Thread: 128MB - Thread Count: 32",1.31
+"Threaded I/O Tester - Test: Write - Size Per Thread: 256MB - Thread Count: 16",0.77
+"Threaded I/O Tester - Test: Write - Size Per Thread: 256MB - Thread Count: 32",1.36
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 32MB - Thread Count: 4",2016.31
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 32MB - Thread Count: 8",2770.98
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 64MB - Thread Count: 4",2260.04
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 64MB - Thread Count: 8",2863.16
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 128MB - Thread Count: 4",2150.44
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 128MB - Thread Count: 8",3057.69
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 256MB - Thread Count: 4",1553.44
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 256MB - Thread Count: 8",1736.38
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 32MB - Thread Count: 16",2959.65
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 32MB - Thread Count: 32",3004.65
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 64MB - Thread Count: 16",3164.67
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 64MB - Thread Count: 32",2821.74
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 32MB - Thread Count: 4",2.74
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 32MB - Thread Count: 8",3.61
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 64MB - Thread Count: 4",2.76
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 64MB - Thread Count: 8",3.61
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 128MB - Thread Count: 16",3013.95
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 128MB - Thread Count: 32",2701.65
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 256MB - Thread Count: 16",1470.39
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 256MB - Thread Count: 32",1439.66
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 128MB - Thread Count: 4",0.33
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 128MB - Thread Count: 8",1.55
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 256MB - Thread Count: 4",0.31
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 256MB - Thread Count: 8",0.48
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 32MB - Thread Count: 16",1.05
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 32MB - Thread Count: 32",2.08
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 64MB - Thread Count: 16",3.20
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 64MB - Thread Count: 32",1.41
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 128MB - Thread Count: 16",1.99
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 128MB - Thread Count: 32",1.40
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 256MB - Thread Count: 16",1.59
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 256MB - Thread Count: 32",1.08
+

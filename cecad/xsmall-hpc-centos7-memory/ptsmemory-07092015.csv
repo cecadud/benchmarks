@@ -1,0 +1,23 @@
+ptsmemory-07092015
+
+ ,"ptsmemory"
+Processor,Intel Core 2 Duo P9xxx @ 2.39GHz (1 Core)
+Motherboard,OpenStack Foundation Nova v2014.2.3
+Memory,1024MB
+Disk,40GB
+OS,CentOS Linux 7
+Kernel,3.10.0-229.11.1.el7.x86_64 (x86_64)
+Compiler,GCC 4.8.3 20140911
+File-System,xfs
+Screen Resolution,1024x768
+System Layer,KVM
+
+ ,"ptsmemory"
+"RAMspeed SMP - Integer Add",1957.58
+"RAMspeed SMP - Integer Copy",2020.34
+"RAMspeed SMP - Integer Scale",2014.16
+"RAMspeed SMP - Floating-Point Add",2054.46
+"CacheBench - Read Cache",1770.37
+"CacheBench - Write Cache",7865.54
+
+
