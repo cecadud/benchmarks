@@ -1,0 +1,33 @@
+ptsdisk-03012015
+
+ ,"Intel Core 2 Duo P9xxx"
+Processor,24 x Intel Core 2 Duo P9xxx (Penryn Class Core 2) @ 2.39GHz (24 Cores)
+Motherboard,OpenStack Foundation Nova v2015.1.2
+Chipset,Intel 440FX- 82441FX PMC
+Memory,64512MB
+Disk,38GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,CentOS 6.7
+Kernel,2.6.32-573.12.1.el6.x86_64 (x86_64)
+Compiler,GCC 4.4.7 20120313
+File-System,ext4
+
+ ,"Intel Core 2 Duo P9xxx"
+"AIO-Stress - Random Write",683.45
+"SQLite - Timed SQLite Insertions",126.86
+"Dbench - 12 Clients",47.52
+"Dbench - 48 Clients",112.49
+"Dbench - 128 Clients",133.43
+"Dbench - 1 Clients",62.20
+"IOzone - 8GB Read Performance",1470.32
+"IOzone - 8GB Write Performance",68.37
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",675.25
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",2.18
+"Compile Bench - Test: Compile",373.25
+"Compile Bench - Test: Initial Create",44.97
+"Compile Bench - Test: Read Compiled Tree",482.20
+"Unpacking The Linux Kernel - linux-2.6.32.tar.bz2",22.19
+"PostMark - Disk Transaction Performance",1183
+"Gzip Compression - 2GB File Compression",24.99
+

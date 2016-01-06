@@ -1,0 +1,26 @@
+ptsmemory-28122015
+
+ ,"Intel Core 2 Duo P9xxx"
+Processor,24 x Intel Core 2 Duo P9xxx (Penryn Class Core 2) @ 2.39GHz (24 Cores)
+Motherboard,OpenStack Foundation Nova v2015.1.2
+Chipset,Intel 440FX- 82441FX PMC
+Memory,130048MB
+Disk,38GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,CentOS 6.7
+Kernel,2.6.32-573.12.1.el6.x86_64 (x86_64)
+Compiler,GCC 4.4.7 20120313
+File-System,ext4
+
+ ,"Intel Core 2 Duo P9xxx"
+"RAMspeed SMP - Integer Add",3742.15
+"RAMspeed SMP - Integer Copy",3880.25
+"RAMspeed SMP - Integer Scale",3860.29
+"RAMspeed SMP - Floating-Point Add",3812.41
+"Stream - Add",7492.56
+"Stream - Copy",7306.18
+"Stream - Scale",7187.70
+"CacheBench - Read Cache",1762.88
+"CacheBench - Write Cache",5295.90
+

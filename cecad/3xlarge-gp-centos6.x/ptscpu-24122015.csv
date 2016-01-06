@@ -1,0 +1,31 @@
+ptscpu-24122015
+
+ ,"ptscpu"
+Processor,16 x Intel Core i7 9xx (Nehalem Class Core i7) @ 2.93GHz (16 Cores)
+Motherboard,OpenStack Foundation Nova v2015.1.2
+Chipset,Intel 440FX- 82441FX PMC
+Memory,16384MB
+Disk,38GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,CentOS 6.7
+Kernel,2.6.32-573.12.1.el6.x86_64 (x86_64)
+Compiler,GCC 4.4.7 20120313
+File-System,ext4
+
+ ,"ptscpu"
+"Stream - Type: Copy",9200.71
+"Stream - Type: Scale",9323.02
+"Stream - Type: Triad",10303.15
+"Stream - Type: Add",10192.31
+"Timed MAFFT Alignment - Multiple Sequence Alignment",15.61
+"TSCP - AI Chess Performance",714206
+"John The Ripper - Traditional DES",22277333
+"John The Ripper - Blowfish",7904
+"x264 - H.264 Video Encoding",96.95
+"Himeno Benchmark - Poisson Pressure Solver",1162.25
+"C-Ray - Total Time",31.69
+"LAME MP3 Encoding - WAV To MP3",20.58
+"FFmpeg - H.264 HD To NTSC DV",33.01
+"OpenSSL - RSA 4096-bit Performance",559.07
+

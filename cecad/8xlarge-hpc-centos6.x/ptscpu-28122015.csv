@@ -1,0 +1,31 @@
+ptscpu-28122015
+
+ ,"Intel Core 2 Duo P9xxx"
+Processor,24 x Intel Core 2 Duo P9xxx (Penryn Class Core 2) @ 2.39GHz (24 Cores)
+Motherboard,OpenStack Foundation Nova v2015.1.2
+Chipset,Intel 440FX- 82441FX PMC
+Memory,130048MB
+Disk,38GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,CentOS 6.7
+Kernel,2.6.32-573.12.1.el6.x86_64 (x86_64)
+Compiler,GCC 4.4.7 20120313
+File-System,ext4
+
+ ,"Intel Core 2 Duo P9xxx"
+"Stream - Type: Copy",7331.90
+"Stream - Type: Scale",7239.48
+"Stream - Type: Triad",7643.37
+"Stream - Type: Add",7537.79
+"Timed MAFFT Alignment - Multiple Sequence Alignment",52.38
+"TSCP - AI Chess Performance",479939
+"John The Ripper - Traditional DES",40729333
+"John The Ripper - Blowfish",11061
+"x264 - H.264 Video Encoding",131.86
+"Himeno Benchmark - Poisson Pressure Solver",584.92
+"C-Ray - Total Time",19.22
+"LAME MP3 Encoding - WAV To MP3",31.64
+"FFmpeg - H.264 HD To NTSC DV",32.81
+"OpenSSL - RSA 4096-bit Performance",1061.30
+
