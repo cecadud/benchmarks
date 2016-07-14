@@ -1,0 +1,37 @@
+ptsdisk-20160707
+
+ ,"ptsdisk"
+Processor,AMD Opteron 4171 HE @ 2.09GHz (4 Cores)
+Motherboard,Microsoft Virtual Machine v7.0
+Chipset,Intel 440BX/ZX/DX
+Memory,7168MB
+Disk,31GB Virtual Disk + 129GB Virtual Disk
+Graphics,Microsoft Hyper-V virtual VGA
+OS,Ubuntu 14.04
+Kernel,3.19.0-64-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+Screen Resolution,1152x864
+System Layer,Microsoft Hyper-V Server
+
+ ,"ptsdisk"
+"AIO-Stress - Random Write",295.63
+"SQLite - Timed SQLite Insertions",452.64
+"FS-Mark - 1000 Files, 1MB Size",12.58
+"Dbench - 12 Clients",68.96
+"Dbench - 48 Clients",153.28
+"Dbench - 128 Clients",140.98
+"Dbench - 1 Clients",14.03
+"IOzone - 8GB Read Performance",102.26
+"IOzone - 8GB Write Performance",22.01
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",1197.35
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",1.48
+"Compile Bench - Test: Compile",97.37
+"Compile Bench - Test: Initial Create",24.75
+"Compile Bench - Test: Read Compiled Tree",209.95
+"Unpacking The Linux Kernel - linux-2.6.32.tar.bz2",32.80
+"PostMark - Disk Transaction Performance",1293
+"Gzip Compression - 2GB File Compression",47.59
+"Apache Benchmark - Static Web Page Serving",5978.59
+
+
