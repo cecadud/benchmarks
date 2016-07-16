@@ -1,0 +1,42 @@
+ptscpu-20160706
+
+ ,"AMD Opteron 4171 HE"
+Processor,AMD Opteron 4171 HE @ 2.09GHz (2 Cores)
+Motherboard,Microsoft Virtual Machine v7.0
+Chipset,Intel 440BX/ZX/DX
+Memory,3584MB
+Disk,31GB Virtual Disk + 64GB Virtual Disk
+Graphics,Microsoft Hyper-V virtual VGA
+OS,Ubuntu 14.04
+Kernel,3.19.0-64-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+Screen Resolution,1152x864
+System Layer,Microsoft Hyper-V Server
+
+ ,"AMD Opteron 4171 HE"
+"Stream - Type: Copy",4733.38
+"Stream - Type: Scale",5160.66
+"Stream - Type: Triad",5536.26
+"Stream - Type: Add",5565.24
+"NAS Parallel Benchmarks - Test / Class: LU.A",1226.93
+"Timed MAFFT Alignment - Multiple Sequence Alignment",54.11
+"Gcrypt Library - CAMELLIA256-ECB Cipher",8983
+"TSCP - AI Chess Performance",271988
+"John The Ripper - Traditional DES",1699333
+"John The Ripper - Blowfish",638
+"TTSIOD 3D Renderer - Phong Rendering With Soft-Shadow Mapping",14.55
+"x264 - H.264 Video Encoding",14.13
+"Himeno Benchmark - Poisson Pressure Solver",221.58
+"7-Zip Compression - Compress Speed Test",1866
+"C-Ray - Total Time",238.76
+"Parallel BZIP2 Compression - 256MB File Compression",103.56
+"Smallpt - Global Illumination Renderer; 100 Samples",1075
+"Crafty - Elapsed Time",293.79
+"FLAC Audio Encoding - WAV To FLAC",34.55
+"LAME MP3 Encoding - WAV To MP3",60.61
+"FFmpeg - H.264 HD To NTSC DV",64.80
+"Tachyon - Total Time",162.38
+"OpenSSL - RSA 4096-bit Performance",69.77
+"Apache Benchmark - Static Web Page Serving",4014.36
+

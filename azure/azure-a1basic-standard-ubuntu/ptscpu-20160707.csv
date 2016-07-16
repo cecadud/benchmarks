@@ -1,0 +1,36 @@
+ptscpu-20160707
+
+ ,"ptscpu"
+Processor,AMD Opteron 4171 HE @ 2.09GHz (1 Core)
+Motherboard,Microsoft Virtual Machine v7.0
+Chipset,Intel 440BX/ZX/DX
+Memory,2048MB
+Disk,31GB Virtual Disk + 43GB Virtual Disk
+Graphics,Microsoft Hyper-V virtual VGA
+OS,Ubuntu 14.04
+Kernel,3.19.0-64-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+Screen Resolution,1152x864
+System Layer,Microsoft Hyper-V Server
+
+ ,"ptscpu"
+"NAS Parallel Benchmarks - Test / Class: LU.A",664.99
+"Timed MAFFT Alignment - Multiple Sequence Alignment",90.74
+"Gcrypt Library - CAMELLIA256-ECB Cipher",8933
+"TSCP - AI Chess Performance",273356
+"John The Ripper - Traditional DES",1049333
+"John The Ripper - Blowfish",333
+"x264 - H.264 Video Encoding",8.18
+"Himeno Benchmark - Poisson Pressure Solver",230.69
+"7-Zip Compression - Compress Speed Test",1224
+"C-Ray - Total Time",481.74
+"Parallel BZIP2 Compression - 256MB File Compression",196.17
+"Smallpt - Global Illumination Renderer; 100 Samples",2163
+"Crafty - Elapsed Time",294.93
+"FLAC Audio Encoding - WAV To FLAC",34.23
+"LAME MP3 Encoding - WAV To MP3",61.03
+"FFmpeg - H.264 HD To NTSC DV",116.39
+"OpenSSL - RSA 4096-bit Performance",34.97
+"Apache Benchmark - Static Web Page Serving",2234.68
+

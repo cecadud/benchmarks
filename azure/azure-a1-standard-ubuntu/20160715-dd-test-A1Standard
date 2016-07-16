@@ -1,0 +1,141 @@
+cecad@A1Standard:~$ sudo ./disk-test.sh | sudo tee test.txt
+1+0 records in
+1+0 records out
+1000000000 bytes (1.0 GB) copied, 46.4864 s, 21.5 MB/s
+1+0 records in
+1+0 records out
+1000000000 bytes (1.0 GB) copied, 35.9253 s, 27.8 MB/s
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+dd: memory exhausted by input buffer of size 8000000000 bytes (7.5 GiB)
+dd: memory exhausted by input buffer of size 8000000000 bytes (7.5 GiB)
+2+0 records in
+2+0 records out
+2000000000 bytes (2.0 GB) copied, 120.344 s, 16.6 MB/s
+2+0 records in
+2+0 records out
+2000000000 bytes (2.0 GB) copied, 52.7664 s, 37.9 MB/s
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+4+0 records in
+4+0 records out
+4000000000 bytes (4.0 GB) copied, 219.117 s, 18.3 MB/s
+4+0 records in
+4+0 records out
+4000000000 bytes (4.0 GB) copied, 86.296 s, 46.4 MB/s
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+1+0 records in
+1+0 records out
+1000000000 bytes (1.0 GB) copied, 0.92145 s, 1.1 GB/s
+1+0 records in
+1+0 records out
+1000000000 bytes (1.0 GB) copied, 2.26254 s, 442 MB/s
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+dd: memory exhausted by input buffer of size 8000000000 bytes (7.5 GiB)
+dd: memory exhausted by input buffer of size 8000000000 bytes (7.5 GiB)
+2+0 records in
+2+0 records out
+2000000000 bytes (2.0 GB) copied, 1.56927 s, 1.3 GB/s
+2+0 records in
+2+0 records out
+2000000000 bytes (2.0 GB) copied, 3.85447 s, 519 MB/s
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+4+0 records in
+4+0 records out
+4000000000 bytes (4.0 GB) copied, 2.79498 s, 1.4 GB/s
+4+0 records in
+4+0 records out
+4000000000 bytes (4.0 GB) copied, 8.28798 s, 483 MB/s
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: invalid number ''
+dd: invalid number ''
+cecad@A1Standard:~$ nano test.txt 
+cecad@A1Standard:~$ sudo nano disk-test.sh 
+cecad@A1Standard:~$ sudo ./disk-test.sh | sudo tee -a test.txt
+1+0 records in
+1+0 records out
+1000000000 bytes (1.0 GB) copied, 43.1784 s, 23.2 MB/s
+1+0 records in
+1+0 records out
+1000000000 bytes (1.0 GB) copied, 22.3723 s, 44.7 MB/s
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+dd: memory exhausted by input buffer of size 8000000000 bytes (7.5 GiB)
+dd: memory exhausted by input buffer of size 8000000000 bytes (7.5 GiB)
+2+0 records in
+2+0 records out
+2000000000 bytes (2.0 GB) copied, 87.8881 s, 22.8 MB/s
+2+0 records in
+2+0 records out
+2000000000 bytes (2.0 GB) copied, 40.2969 s, 49.6 MB/s
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+4+0 records in
+4+0 records out
+4000000000 bytes (4.0 GB) copied, 177.01 s, 22.6 MB/s
+4+0 records in
+4+0 records out
+4000000000 bytes (4.0 GB) copied, 78.1322 s, 51.2 MB/s
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+8+0 records in
+8+0 records out
+8000000000 bytes (8.0 GB) copied, 294.97 s, 27.1 MB/s
+8+0 records in
+8+0 records out
+8000000000 bytes (8.0 GB) copied, 155.02 s, 51.6 MB/s
+1+0 records in
+1+0 records out
+1000000000 bytes (1.0 GB) copied, 0.808419 s, 1.2 GB/s
+1+0 records in
+1+0 records out
+1000000000 bytes (1.0 GB) copied, 2.13978 s, 467 MB/s
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+dd: memory exhausted by input buffer of size 8000000000 bytes (7.5 GiB)
+dd: memory exhausted by input buffer of size 8000000000 bytes (7.5 GiB)
+2+0 records in
+2+0 records out
+2000000000 bytes (2.0 GB) copied, 1.44342 s, 1.4 GB/s
+2+0 records in
+2+0 records out
+2000000000 bytes (2.0 GB) copied, 3.91607 s, 511 MB/s
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+dd: memory exhausted by input buffer of size 4000000000 bytes (3.7 GiB)
+4+0 records in
+4+0 records out
+4000000000 bytes (4.0 GB) copied, 2.77023 s, 1.4 GB/s
+4+0 records in
+4+0 records out
+4000000000 bytes (4.0 GB) copied, 8.08223 s, 495 MB/s
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+dd: memory exhausted by input buffer of size 2000000000 bytes (1.9 GiB)
+8+0 records in
+8+0 records out
+8000000000 bytes (8.0 GB) copied, 5.37211 s, 1.5 GB/s
+8+0 records in
+8+0 records out
+8000000000 bytes (8.0 GB) copied, 15.7353 s, 508 MB/s
+
