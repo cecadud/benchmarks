@@ -26,7 +26,7 @@ System Layer,Microsoft Hyper-V Server,Microsoft Hyper-V Server,Microsoft Hyper-V
 "Stream - Type: Scale",7557.38,7583.14
 "Stream - Type: Triad",8272.60,8241.08
 "Stream - Type: Add",8365.06,8274.20
-"NAS Parallel Benchmarks - Test / Class: LU.A",2490.17,2453.85,
+"NAS Parallel Benchmarks - Test / Class: LU.A",2490.17,2453.85
 "Timed MAFFT Alignment - Multiple Sequence Alignment",27.64,27.25
 "Gcrypt Library - CAMELLIA256-ECB Cipher",8750,8823
 "TSCP - AI Chess Performance",275841,275553

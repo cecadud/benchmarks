@@ -37,7 +37,7 @@ System Layer,Microsoft Hyper-V Server,Microsoft Hyper-V Server,Microsoft Hyper-V
 "FLAC Audio Encoding - WAV To FLAC",34.23
 "LAME MP3 Encoding - WAV To MP3",61.03
 "FFmpeg - H.264 HD To NTSC DV",116.39
-"OpenSSL - RSA 4096-bit Performance",34.97,34.97
+"OpenSSL - RSA 4096-bit Performance",34.97
 "Apache Benchmark - Static Web Page Serving",2234.68,2238.02
 "GraphicsMagick - HWB Color Space",29
 "GraphicsMagick - Local Adaptive Thresholding",24
