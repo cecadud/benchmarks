@@ -22,6 +22,9 @@ System Layer,Microsoft Hyper-V Server,Microsoft Hyper-V Server,Microsoft Hyper-V
 "Stream - Add",8235.80
 "Stream - Copy",7494.02
 "Stream - Scale",7646.46
+"CacheBench - Test: Read",704.84
+"CacheBench - Test: Write",3819.51
+"CacheBench - Test: Read / Modify / Write",5368.19
 "Stream - Type: Copy",7400.92,7463.88
 "Stream - Type: Scale",7557.38,7583.14
 "Stream - Type: Triad",8272.60,8241.08
@@ -32,6 +35,11 @@ System Layer,Microsoft Hyper-V Server,Microsoft Hyper-V Server,Microsoft Hyper-V
 "TSCP - AI Chess Performance",275841,275553
 "John The Ripper - Traditional DES",2818333,2831667
 "John The Ripper - Blowfish",1254,1261
+"GraphicsMagick - Blur",32
+"GraphicsMagick - Sharpen",20
+"GraphicsMagick - Resizing",43
+"GraphicsMagick - HWB Color Space",49
+"GraphicsMagick - Local Adaptive Thresholding",25
 "x264 - H.264 Video Encoding",29.28,28.09
 "Himeno Benchmark - Poisson Pressure Solver",237.48,237.41
 "7-Zip Compression - Compress Speed Test",3840,3802
