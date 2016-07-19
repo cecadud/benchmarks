@@ -22,8 +22,8 @@ System Layer,Microsoft Hyper-V Server,Microsoft Hyper-V Server,Microsoft Hyper-V
 "Stream - Add",8235.80
 "Stream - Copy",7494.02
 "Stream - Scale",7646.46
-"CacheBench - Test: Read",704.84
-"CacheBench - Test: Write",3819.51
+"CacheBench - Read Cache",704.84
+"CacheBench - Write Cache",3819.51
 "CacheBench - Test: Read / Modify / Write",5368.19
 "Stream - Type: Copy",7400.92,7463.88
 "Stream - Type: Scale",7557.38,7583.14
