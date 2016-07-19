@@ -1,0 +1,23 @@
+ptsgraphics-magick-20160707
+
+ ,"ptsgraphicsmagick"
+Processor,AMD Opteron 4171 HE @ 2.09GHz (4 Cores)
+Motherboard,Microsoft Virtual Machine v7.0
+Chipset,Intel 440BX/ZX/DX
+Memory,7168MB
+Disk,31GB Virtual Disk + 129GB Virtual Disk
+Graphics,Microsoft Hyper-V virtual VGA
+OS,Ubuntu 14.04
+Kernel,3.19.0-65-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+Screen Resolution,1152x864
+System Layer,Microsoft Hyper-V Server
+
+ ,"ptsgraphicsmagick"
+"GraphicsMagick - Operation: Blur",32
+"GraphicsMagick - Operation: Sharpen",20
+"GraphicsMagick - Operation: Resizing",43
+"GraphicsMagick - Operation: HWB Color Space",49
+"GraphicsMagick - Operation: Local Adaptive Thresholding",25
+

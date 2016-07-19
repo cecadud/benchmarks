@@ -1,0 +1,26 @@
+ptscachebench-20160707
+
+ ,"ptscachebench","ptsgraphicsmagick"
+Processor,AMD Opteron 4171 HE @ 2.09GHz (4 Cores),AMD Opteron 4171 HE @ 2.09GHz (4 Cores)
+Motherboard,Microsoft Virtual Machine v7.0,Microsoft Virtual Machine v7.0
+Chipset,Intel 440BX/ZX/DX,Intel 440BX/ZX/DX
+Memory,7168MB,7168MB
+Disk,31GB Virtual Disk + 129GB Virtual Disk,31GB Virtual Disk + 129GB Virtual Disk
+Graphics,Microsoft Hyper-V virtual VGA,Microsoft Hyper-V virtual VGA
+OS,Ubuntu 14.04,Ubuntu 14.04
+Kernel,3.19.0-65-generic (x86_64),3.19.0-65-generic (x86_64)
+Compiler,GCC 4.8.4,GCC 4.8.4
+File-System,ext4,ext4
+Screen Resolution,1152x864,1152x864
+System Layer,Microsoft Hyper-V Server,Microsoft Hyper-V Server
+
+ ,"ptscachebench","ptsgraphicsmagick"
+"CacheBench - Test: Read",704.84,
+"CacheBench - Test: Write",3819.51,
+"CacheBench - Test: Read / Modify / Write",5368.19,
+"GraphicsMagick - Operation: Blur",,32
+"GraphicsMagick - Operation: Sharpen",,20
+"GraphicsMagick - Operation: Resizing",,43
+"GraphicsMagick - Operation: HWB Color Space",,49
+"GraphicsMagick - Operation: Local Adaptive Thresholding",,25
+
