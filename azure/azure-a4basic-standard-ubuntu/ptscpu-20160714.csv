@@ -1,0 +1,45 @@
+ptscpu-20160714
+
+ ,"ptscpu"
+Processor,2 x AMD Opteron 4171 HE @ 2.09GHz (8 Cores)
+Motherboard,Microsoft Virtual Machine v7.0
+Chipset,Intel 440BX/ZX/DX
+Memory,14336MB
+Disk,31GB Virtual Disk + 258GB Virtual Disk
+Graphics,Microsoft Hyper-V virtual VGA
+OS,Ubuntu 14.04
+Kernel,3.19.0-64-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+Screen Resolution,1152x864
+System Layer,Microsoft Hyper-V Server
+
+ ,"ptscpu"
+"Stream - Type: Copy",7838.66
+"Stream - Type: Scale",7835.66
+"Stream - Type: Triad",8676.60
+"Stream - Type: Add",8678.44
+"NAS Parallel Benchmarks - Test / Class: LU.A",3199.21
+"Timed MAFFT Alignment - Multiple Sequence Alignment",19.21
+"Gcrypt Library - CAMELLIA256-ECB Cipher",8693
+"TSCP - AI Chess Performance",276719
+"John The Ripper - Traditional DES",5161333
+"John The Ripper - Blowfish",2419
+"x264 - H.264 Video Encoding",39.29
+"GraphicsMagick - HWB Color Space",56
+"GraphicsMagick - Local Adaptive Thresholding",25
+"GraphicsMagick - Sharpen",29
+"GraphicsMagick - Resizing",48
+"Himeno Benchmark - Poisson Pressure Solver",239.61
+"7-Zip Compression - Compress Speed Test",6757
+"C-Ray - Total Time",58.17
+"Parallel BZIP2 Compression - 256MB File Compression",27.11
+"Smallpt - Global Illumination Renderer; 100 Samples",259
+"Crafty - Elapsed Time",280.58
+"FLAC Audio Encoding - WAV To FLAC",32.70
+"LAME MP3 Encoding - WAV To MP3",58.72
+"FFmpeg - H.264 HD To NTSC DV",37.82
+"Tachyon - Total Time",40.49
+"OpenSSL - RSA 4096-bit Performance",291.00
+"Apache Benchmark - Static Web Page Serving",5594.70
+

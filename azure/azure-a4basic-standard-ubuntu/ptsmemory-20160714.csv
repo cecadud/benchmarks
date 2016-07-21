@@ -1,0 +1,25 @@
+ptsmemory-20160714
+
+ ,"ptsmemory"
+Processor,2 x AMD Opteron 4171 HE @ 2.09GHz (8 Cores)
+Motherboard,Microsoft Virtual Machine v7.0
+Chipset,Intel 440BX/ZX/DX
+Memory,14336MB
+Disk,31GB Virtual Disk + 258GB Virtual Disk
+Graphics,Microsoft Hyper-V virtual VGA
+OS,Ubuntu 14.04
+Kernel,3.19.0-64-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+Screen Resolution,1152x864
+System Layer,Microsoft Hyper-V Server
+
+ ,"ptsmemory"
+"RAMspeed SMP - Integer Add",4310.87
+"RAMspeed SMP - Integer Copy",4877.27
+"RAMspeed SMP - Integer Scale",4643.64
+"RAMspeed SMP - Floating-Point Add",4935.86
+"Stream - Add",8639.38
+"Stream - Copy",7879.02
+"Stream - Scale",7840.18
+

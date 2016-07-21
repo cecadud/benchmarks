@@ -1,0 +1,37 @@
+ptsdisk-20160719
+
+ ,"ptsdisk"
+Processor,4 x Intel Xeon E7450 @ 2.39GHz (24 Cores)
+Motherboard,Dell 0X947H
+Chipset,Intel 7300 MCH
+Memory,258048MB
+Disk,73GB PERC 6/i + 3999GB MD3000
+Graphics,AMD ES1000 128MB
+Monitor,Smart Cable
+Network,Broadcom NetXtreme II BCM5708 Gigabit
+OS,Ubuntu 14.04
+Kernel,3.13.0-88-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+Screen Resolution,1024x768
+
+ ,"ptsdisk"
+"AIO-Stress - Random Write",716.31
+"SQLite - Timed SQLite Insertions",5.75
+"FS-Mark - 1000 Files, 1MB Size",117.98
+"Dbench - 12 Clients",1171.71
+"Dbench - 48 Clients",1288.62
+"Dbench - 128 Clients",469.82
+"Dbench - 1 Clients",305.91
+"IOzone - 8GB Read Performance",1463.07
+"IOzone - 8GB Write Performance",96.43
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",3714.04
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",2.93
+"Compile Bench - Test: Compile",506.44
+"Compile Bench - Test: Initial Create",139.21
+"Compile Bench - Test: Read Compiled Tree",656.77
+"Unpacking The Linux Kernel - linux-2.6.32.tar.bz2",13.87
+"PostMark - Disk Transaction Performance",1506
+"Gzip Compression - 2GB File Compression",22.04
+"Apache Benchmark - Static Web Page Serving",6804.93
+
