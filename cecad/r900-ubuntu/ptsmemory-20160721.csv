@@ -1,0 +1,27 @@
+ptsmemory-20160721
+
+ ,"ptsmemory2"
+Processor,4 x Intel Xeon E7450 @ 2.39GHz (24 Cores)
+Motherboard,Dell 0X947H
+Chipset,Intel 7300 MCH
+Memory,258048MB
+Disk,73GB PERC 6/i + 3999GB MD3000
+Graphics,AMD ES1000 128MB
+Network,Broadcom NetXtreme II BCM5708 Gigabit
+OS,Ubuntu 14.04
+Kernel,3.13.0-92-generic (x86_64)
+Compiler,GCC 4.8
+File-System,ext4
+Screen Resolution,1024x768
+
+ ,"ptsmemory2"
+"RAMspeed SMP - Integer Add",3942.44
+"RAMspeed SMP - Integer Copy",3992.74
+"RAMspeed SMP - Integer Scale",3979.33
+"RAMspeed SMP - Floating-Point Add",3759.78
+"Stream - Add",9445.40
+"Stream - Copy",8414.66
+"Stream - Scale",8361.48
+"CacheBench - Read Cache",2009.48
+"CacheBench - Write Cache",8970.77
+
