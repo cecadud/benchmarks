@@ -1,0 +1,36 @@
+ptscpu-16102015
+
+ ,"ptscpu2"
+Processor,Intel Core i7 9xx @ 2.93GHz (1 Core)
+Motherboard,OpenStack Foundation Nova v2015.1.4
+Chipset,Intel 440FX- 82441FX PMC
+Memory,2048MB
+Disk,20GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,Ubuntu 14.04
+Kernel,3.13.0-79-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+
+ ,"ptscpu2"
+"NAS Parallel Benchmarks - Test / Class: LU.A",2727.62
+"Timed MAFFT Alignment - Multiple Sequence Alignment",27.83
+"Gcrypt Library - CAMELLIA256-ECB Cipher",3492
+"TSCP - AI Chess Performance",693676
+"John The Ripper - Traditional DES",1810667
+"John The Ripper - Blowfish",847
+"x264 - H.264 Video Encoding",24.15
+"Himeno Benchmark - Poisson Pressure Solver",1302.08
+"7-Zip Compression - Compress Speed Test",3363
+"C-Ray - Total Time",126.39
+"Parallel BZIP2 Compression - 256MB File Compression",60.09
+"Smallpt - Global Illumination Renderer; 100 Samples",712
+"Crafty - Elapsed Time",97.60
+"FLAC Audio Encoding - WAV To FLAC",10.77
+"LAME MP3 Encoding - WAV To MP3",19.90
+"FFmpeg - H.264 HD To NTSC DV",36.18
+"Tachyon - Total Time",99.41
+"OpenSSL - RSA 4096-bit Performance",70.68
+"Apache Benchmark - Static Web Page Serving",5910.45
+

@@ -1,0 +1,67 @@
+pts-all-test-20160727
+
+ ,"ptsall"
+Processor,Intel Xeon E5-2650 0 @ 1.80GHz (2 Cores)
+Memory,8192MB
+Disk,79GB
+OS,Ubuntu 14.04
+Kernel,3.13.0-92-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+System Layer,Xen 3.4.3.amazon Hypervisor
+
+ ,"ptsall"
+"AIO-Stress - Random Write",754.91
+"SQLite - Timed SQLite Insertions",173.76
+"FS-Mark - 1000 Files, 1MB Size",9.60
+"Dbench - 12 Clients",64.52
+"Dbench - 48 Clients",66.23
+"Dbench - 128 Clients",38.82
+"Dbench - 1 Clients",43.80
+"IOzone - 8GB Read Performance",10.24
+"IOzone - 8GB Write Performance",10.25
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",1109.39
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",0.89
+"Compile Bench - Test: Compile",70.01
+"Compile Bench - Test: Initial Create",41.11
+"Compile Bench - Test: Read Compiled Tree",212.20
+"Unpacking The Linux Kernel - linux-2.6.32.tar.bz2",18.70
+"PostMark - Disk Transaction Performance",1288
+"RAMspeed SMP - Integer Add",15417.12
+"RAMspeed SMP - Integer Copy",14788.04
+"RAMspeed SMP - Integer Scale",14818.54
+"RAMspeed SMP - Floating-Point Add",12732.07
+"Stream - Type: Copy",15392.22
+"Stream - Type: Scale",15261.98
+"Stream - Type: Triad",16225.96
+"Stream - Add",15749.70
+"Stream - Copy",15392.22
+"Stream - Scale",15261.98
+"Stream - Type: Add",15749.70
+"NAS Parallel Benchmarks - Test / Class: LU.A",2895.56
+"Timed MAFFT Alignment - Multiple Sequence Alignment",24.67
+"CacheBench - Read Cache",1513.44
+"CacheBench - Write Cache",6725.33
+"Gcrypt Library - CAMELLIA256-ECB Cipher",4977
+"TSCP - AI Chess Performance",522362
+"John The Ripper - Traditional DES",2068000
+"John The Ripper - Blowfish",847
+"x264 - H.264 Video Encoding",27.65
+"GraphicsMagick - HWB Color Space",61
+"GraphicsMagick - Local Adaptive Thresholding",38
+"GraphicsMagick - Sharpen",14
+"GraphicsMagick - Resizing",42
+"Himeno Benchmark - Poisson Pressure Solver",792.03
+"7-Zip Compression - Compress Speed Test",3555
+"C-Ray - Total Time",133.46
+"Parallel BZIP2 Compression - 256MB File Compression",51.53
+"Smallpt - Global Illumination Renderer; 100 Samples",570
+"Gzip Compression - 2GB File Compression",27.94
+"Crafty - Elapsed Time",165.63
+"FLAC Audio Encoding - WAV To FLAC",18.79
+"LAME MP3 Encoding - WAV To MP3",30.38
+"FFmpeg - H.264 HD To NTSC DV",34.68
+"Tachyon - Total Time",71.07
+"OpenSSL - RSA 4096-bit Performance",111.43
+"Apache Benchmark - Static Web Page Serving",4708.61
+

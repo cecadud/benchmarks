@@ -1,0 +1,131 @@
+ptsmemory-20160721
+
+ ,"ptsmemory","ptscpu","ptstiobench","ptsall"
+Processor,Intel Xeon E5-2650 0 @ 1.80GHz (2 Cores),Intel Xeon E5-2650 0 @ 1.80GHz (2 Cores),Intel Xeon E5-2650 0 @ 1.80GHz (2 Cores),Intel Xeon E5-2650 0 @ 1.80GHz (2 Cores)
+Memory,8192MB,8192MB,8192MB,8192MB
+Disk,79GB,79GB,79GB,79GB
+OS,Ubuntu 14.04,Ubuntu 14.04,Ubuntu 14.04,Ubuntu 14.04
+Kernel,3.13.0-92-generic (x86_64),3.13.0-92-generic (x86_64),3.13.0-92-generic (x86_64),3.13.0-92-generic (x86_64)
+Compiler,GCC 4.8.4,GCC 4.8.4,GCC 4.8.4,GCC 4.8.4
+File-System,ext4,ext4,ext4,ext4
+System Layer,Xen 3.4.3.amazon Hypervisor,Xen 3.4.3.amazon Hypervisor,Xen 3.4.3.amazon Hypervisor,Xen 3.4.3.amazon Hypervisor
+
+ ,"ptsmemory","ptscpu","ptstiobench","ptsall"
+"RAMspeed SMP - Integer Add",15638.88,,,15417.12
+"RAMspeed SMP - Integer Copy",14876.20,,,14788.04
+"RAMspeed SMP - Integer Scale",14862.94,,,14818.54
+"RAMspeed SMP - Floating-Point Add",12885.15,,,12732.07
+"Stream - Add",15741.06,,,15749.70
+"Stream - Copy",15377.76,,,15392.22
+"Stream - Scale",15223.78,,,15261.98
+"CacheBench - Read Cache",1512.69,,,1513.44
+"CacheBench - Write Cache",6723.79,,,6725.33
+"Stream - Type: Copy",,15326.54,,15392.22
+"Stream - Type: Scale",,15194.72,,15261.98
+"Stream - Type: Triad",,16137.26,,16225.96
+"Stream - Type: Add",,15720.26,,15749.70
+"NAS Parallel Benchmarks - Test / Class: LU.A",,2886.67,,2895.56
+"Timed MAFFT Alignment - Multiple Sequence Alignment",,24.76,,24.67
+"Gcrypt Library - CAMELLIA256-ECB Cipher",,5017,,4977
+"TSCP - AI Chess Performance",,521473,,522362
+"John The Ripper - Traditional DES",,2062333,,2068000
+"John The Ripper - Blowfish",,846,,847
+"x264 - H.264 Video Encoding",,27.54,,27.65
+"GraphicsMagick - HWB Color Space",,61,,61
+"GraphicsMagick - Local Adaptive Thresholding",,38,,38
+"GraphicsMagick - Sharpen",,14,,14
+"GraphicsMagick - Resizing",,43,,42
+"Himeno Benchmark - Poisson Pressure Solver",,789.60,,792.03
+"7-Zip Compression - Compress Speed Test",,3550,,3555
+"C-Ray - Total Time",,133.46,,133.46
+"Parallel BZIP2 Compression - 256MB File Compression",,51.22,,51.53
+"Smallpt - Global Illumination Renderer; 100 Samples",,571,,570
+"Crafty - Elapsed Time",,168.26,,165.63
+"FLAC Audio Encoding - WAV To FLAC",,18.81,,18.79
+"LAME MP3 Encoding - WAV To MP3",,30.40,,30.38
+"FFmpeg - H.264 HD To NTSC DV",,34.86,,34.68
+"Tachyon - Total Time",,70.99,,71.07
+"OpenSSL - RSA 4096-bit Performance",,111.13,,111.43
+"Apache Benchmark - Static Web Page Serving",,4734.45,,4708.61
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 4",,,1434.02,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 8",,,1388.33,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 4",,,1455.29,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 8",,,1383.78,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 4",,,1456.05,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 8",,,1526.66,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 4",,,1477.45,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 8",,,1523.96,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 16",,,1541.01,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 32",,,1470.04,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 16",,,1493.55,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 32",,,1433.92,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 4",,,0.64,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 8",,,0.82,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 64MB - Thread Count: 4",,,0.63,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 64MB - Thread Count: 8",,,0.82,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 16",,,1426.29,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 32",,,1429.29,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 16",,,1531.60,
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 32",,,10.23,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 128MB - Thread Count: 4",,,0.63,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 128MB - Thread Count: 8",,,0.82,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 256MB - Thread Count: 4",,,0.63,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 256MB - Thread Count: 8",,,0.82,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 16",,,0.82,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 32",,,0.84,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 64MB - Thread Count: 16",,,0.82,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 64MB - Thread Count: 32",,,0.84,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 128MB - Thread Count: 16",,,0.82,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 128MB - Thread Count: 32",,,0.84,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 256MB - Thread Count: 16",,,0.82,
+"Threaded I/O Tester - Test: Write - Size Per Thread: 256MB - Thread Count: 32",,,0.84,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 32MB - Thread Count: 4",,,1134.33,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 32MB - Thread Count: 8",,,1133.29,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 64MB - Thread Count: 4",,,1076.90,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 64MB - Thread Count: 8",,,1099.23,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 128MB - Thread Count: 4",,,1107.61,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 128MB - Thread Count: 8",,,1097.26,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 256MB - Thread Count: 4",,,1127.68,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 256MB - Thread Count: 8",,,1109.53,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 32MB - Thread Count: 16",,,1154.88,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 32MB - Thread Count: 32",,,1167.52,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 64MB - Thread Count: 16",,,1166.04,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 64MB - Thread Count: 32",,,1167.07,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 32MB - Thread Count: 4",,,0.67,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 32MB - Thread Count: 8",,,0.77,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 64MB - Thread Count: 4",,,0.67,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 64MB - Thread Count: 8",,,0.78,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 128MB - Thread Count: 16",,,1122.73,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 128MB - Thread Count: 32",,,1113.05,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 256MB - Thread Count: 16",,,1064.24,
+"Threaded I/O Tester - Test: Random Read - Size Per Thread: 256MB - Thread Count: 32",,,5.30,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 128MB - Thread Count: 4",,,0.69,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 128MB - Thread Count: 8",,,0.78,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 256MB - Thread Count: 4",,,0.67,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 256MB - Thread Count: 8",,,0.78,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 32MB - Thread Count: 16",,,0.84,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 32MB - Thread Count: 32",,,0.89,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 64MB - Thread Count: 16",,,0.85,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 64MB - Thread Count: 32",,,0.89,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 128MB - Thread Count: 16",,,0.84,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 128MB - Thread Count: 32",,,0.89,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 256MB - Thread Count: 16",,,0.85,
+"Threaded I/O Tester - Test: Random Write - Size Per Thread: 256MB - Thread Count: 32",,,0.89,
+"AIO-Stress - Random Write",,,,754.91
+"SQLite - Timed SQLite Insertions",,,,173.76
+"FS-Mark - 1000 Files, 1MB Size",,,,9.60
+"Dbench - 12 Clients",,,,64.52
+"Dbench - 48 Clients",,,,66.23
+"Dbench - 128 Clients",,,,38.82
+"Dbench - 1 Clients",,,,43.80
+"IOzone - 8GB Read Performance",,,,10.24
+"IOzone - 8GB Write Performance",,,,10.25
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",,,,1109.39
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",,,,0.89
+"Compile Bench - Test: Compile",,,,70.01
+"Compile Bench - Test: Initial Create",,,,41.11
+"Compile Bench - Test: Read Compiled Tree",,,,212.20
+"Unpacking The Linux Kernel - linux-2.6.32.tar.bz2",,,,18.70
+"PostMark - Disk Transaction Performance",,,,1288
+"Gzip Compression - 2GB File Compression",,,,27.94
+

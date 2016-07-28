@@ -1,0 +1,528 @@
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=direct
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 4.4124 s, 122 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=direct
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 4.40109 s, 122 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=direct
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 5.06067 s, 106 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=sync
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 4.96507 s, 108 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=sync
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 4.97264 s, 108 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=sync
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 4.95694 s, 108 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=sync
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 4.96083 s, 108 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=direct
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 10.3298 s, 104 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=direct
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 10.7597 s, 99.8 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=direct
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 10.8097 s, 99.3 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=sync
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 11.0006 s, 97.6 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=sync
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 10.9997 s, 97.6 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=sync
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 11.0065 s, 97.6 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=direct
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 22.7268 s, 94.5 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=direct
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 22.7335 s, 94.5 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=direct
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 22.72 s, 94.5 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=sync
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 23.3997 s, 91.8 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=sync
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 23.4183 s, 91.7 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=sync
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 23.4225 s, 91.7 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=direct
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 47.4966 s, 90.4 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=direct
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 47.4971 s, 90.4 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=direct
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 47.5118 s, 90.4 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=sync
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 48.2123 s, 89.1 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=sync
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 48.2214 s, 89.1 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=sync
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 48.3184 s, 88.9 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=direct
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 121.251 s, 70.8 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=direct
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 98.6904 s, 87.0 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=direct
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 97.3028 s, 88.3 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=sync
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 97.9302 s, 87.7 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=sync
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 97.8406 s, 87.8 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=sync
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 97.8241 s, 87.8 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 24.2747 s, 88.5 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 24.2058 s, 88.7 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 24.184 s, 88.8 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 24.2302 s, 88.6 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 24.1977 s, 88.7 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 24.3134 s, 88.3 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 48.9947 s, 87.7 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 48.9435 s, 87.8 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 48.9628 s, 87.7 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 48.9845 s, 87.7 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 48.9909 s, 87.7 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 48.9882 s, 87.7 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=4 bs=2G oflag=direct                                                                                                                                                                                             
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 98.532 s, 87.2 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=4 bs=2G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 98.5434 s, 87.2 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=4 bs=2G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 98.5317 s, 87.2 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=4 bs=2G oflag=sync
+^[[Cdd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 98.5919 s, 87.1 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=4 bs=2G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 98.6204 s, 87.1 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=4 bs=2G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 98.6108 s, 87.1 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=4G oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 24.2112 s, 88.7 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=4G oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 24.248 s, 88.6 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=4G oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 24.2334 s, 88.6 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=4G oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 24.2297 s, 88.6 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=4G oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 24.2532 s, 88.5 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=4G oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 24.2172 s, 88.7 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=4G oflag=direct                                                                                                                                                                                             
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 48.9994 s, 87.7 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=4G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 49.0053 s, 87.6 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=4G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 48.9875 s, 87.7 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=4G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 49.0271 s, 87.6 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=4G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 49.0069 s, 87.6 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=2 bs=4G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 49.03 s, 87.6 MB/s
+ubuntu@ip-172-31-28-225:~$ sudo dd if=/dev/zero of=test count=1 bs=8G oflag=direct
+dd: memory exhausted by input buffer of size 8589934592 bytes (8.0 GiB)
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=direct                                                                                                                                                                                        
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 8.87344 s, 60.5 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=direct
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 8.63455 s, 62.2 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=direct
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 9.72725 s, 55.2 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=sync
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 10.7541 s, 49.9 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=sync
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 9.9263 s, 54.1 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=sync
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 10.2241 s, 52.5 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=direct                                                                                                                                                                                          
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 17.2017 s, 62.4 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=direct
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 17.1863 s, 62.5 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=direct
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 18.6539 s, 57.6 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=sync
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 19.9493 s, 53.8 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=sync
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 21.3667 s, 50.3 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=sync
+^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[1+0 records in                                                
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 20.4247 s, 52.6 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=direct
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 38.9506 s, 55.1 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=direct
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 48.3618 s, 44.4 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=direct
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 40.3958 s, 53.2 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=sync
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 37.7071 s, 57.0 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=sync
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 37.278 s, 57.6 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=sync
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 44.0603 s, 48.7 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=direct                                                                                                                                                                                          
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 72.0822 s, 59.6 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=direct
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 73.9269 s, 58.1 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=direct
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 74.5806 s, 57.6 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=sync
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 76.7281 s, 56.0 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=sync
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 75.6026 s, 56.8 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=sync
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 76.8876 s, 55.9 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=direct                                                                                                                                                                                          
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 167.951 s, 51.1 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=direct
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 156.431 s, 54.9 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=direct
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 150.026 s, 57.3 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=sync
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 153.667 s, 55.9 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=sync
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 154.93 s, 55.4 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=sync
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 150.345 s, 57.1 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 40.8701 s, 52.5 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 38.178 s, 56.2 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 37.2624 s, 57.6 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 36.6768 s, 58.6 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 36.3675 s, 59.0 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 37.2475 s, 57.7 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 70.5194 s, 60.9 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 71.3491 s, 60.2 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 71.7319 s, 59.9 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 81.8054 s, 52.5 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 72.9717 s, 58.9 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 74.8798 s, 57.4 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=4 bs=2G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 152.671 s, 56.3 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=4 bs=2G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 148.351 s, 57.9 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=4 bs=2G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 149.884 s, 57.3 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=4 bs=2G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 259.733 s, 33.1 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=4 bs=2G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 213.072 s, 40.3 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=4 bs=2G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 153.631 s, 55.9 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=4G oflag=direct                                                                                                                                                                                          
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 38.4931 s, 55.8 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=4G oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 37.9002 s, 56.7 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=4G oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 38.7599 s, 55.4 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=4G oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 37.1928 s, 57.7 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=4G oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 38.0463 s, 56.4 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=4G oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 40.0955 s, 53.6 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=4G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 92.7332 s, 46.3 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=4G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 71.9025 s, 59.7 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=4G oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 143.539 s, 29.9 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=4G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 142.635 s, 30.1 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=4G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 83.5561 s, 51.4 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=2 bs=4G oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 73.7448 s, 58.2 MB/s
+ubuntu@ip-172-31-28-225:/mnt$ sudo dd if=/dev/zero of=test count=1 bs=8G oflag=direct
+dd: memory exhausted by input buffer of size 8589934592 bytes (8.0 GiB)
+
+
+
+

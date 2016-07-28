@@ -1,0 +1,247 @@
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 7.75822 s, 69.2 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 7.8214 s, 68.6 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 7.57729 s, 70.9 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 8.88006 s, 60.5 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 7.63186 s, 70.3 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=512M oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 8.24142 s, 65.1 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 15.0096 s, 71.5 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 15.8577 s, 67.7 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 16.2424 s, 66.1 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 15.9888 s, 67.2 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 16.2675 s, 66.0 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=1G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 16.8868 s, 63.6 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=direct                                                                                                                                                                                              
+sudo: unable to resolve host cecad-medium-gp
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 33.0646 s, 64.9 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 32.9027 s, 65.3 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 32.5289 s, 66.0 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 33.9279 s, 63.3 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 32.5917 s, 65.9 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=2 bs=1G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 33.7354 s, 63.7 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=direct                                                                                                                                                                                              
+sudo: unable to resolve host cecad-medium-gp
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 63.7122 s, 67.4 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 63.6532 s, 67.5 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 65.0453 s, 66.0 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 65.9807 s, 65.1 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 66.8214 s, 64.3 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=4 bs=1G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 65.6904 s, 65.4 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 127.833 s, 67.2 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 126.414 s, 68.0 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 128.122 s, 67.0 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 131.902 s, 65.1 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 129.691 s, 66.2 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=8 bs=1G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 130.14 s, 66.0 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 37.6154 s, 57.1 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 32.7838 s, 65.5 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 32.3987 s, 66.3 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 31.7411 s, 67.7 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 32.9504 s, 65.2 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 33.0736 s, 64.9 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=1 bs=2G oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 32.159 s, 66.8 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=direct                                                                                                                                                                                              
+sudo: unable to resolve host cecad-medium-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 62.0637 s, 69.2 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=direct iflag=fullblock
+sudo: unable to resolve host cecad-medium-gp
+2+0 records in
+2+0 records out
+4294967296 bytes (4.3 GB) copied, 66.11 s, 65.0 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=2 bs=2G oflag=direct iflag=fullblock
+sudo: unable to resolve host cecad-medium-gp
+2+0 records in
+2+0 records out
+4294967296 bytes (4.3 GB) copied, 63.3759 s, 67.8 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=2 bs=2GB oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+2+0 records in
+2+0 records out
+4000000000 bytes (4.0 GB) copied, 62.5069 s, 64.0 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=2 bs=2GB oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+2+0 records in
+2+0 records out
+4000000000 bytes (4.0 GB) copied, 59.6414 s, 67.1 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=2 bs=2GB oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+2+0 records in
+2+0 records out
+4000000000 bytes (4.0 GB) copied, 60.9221 s, 65.7 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=4 bs=2GB oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+4+0 records in
+4+0 records out
+8000000000 bytes (8.0 GB) copied, 120.252 s, 66.5 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=4 bs=2GB oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+4+0 records in
+4+0 records out
+8000000000 bytes (8.0 GB) copied, 117.436 s, 68.1 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=4 bs=2GB oflag=direct
+sudo: unable to resolve host cecad-medium-gp
+4+0 records in
+4+0 records out
+8000000000 bytes (8.0 GB) copied, 119.8 s, 66.8 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=4 bs=2GB oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+4+0 records in
+4+0 records out
+8000000000 bytes (8.0 GB) copied, 122.19 s, 65.5 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=4 bs=2GB oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+4+0 records in
+4+0 records out
+8000000000 bytes (8.0 GB) copied, 121.985 s, 65.6 MB/s
+ubuntu@cecad-medium-gp:~$ sudo dd if=/dev/zero of=test count=4 bs=2GB oflag=sync
+sudo: unable to resolve host cecad-medium-gp
+4+0 records in
+4+0 records out
+8000000000 bytes (8.0 GB) copied, 121.635 s, 65.8 MB/s
+

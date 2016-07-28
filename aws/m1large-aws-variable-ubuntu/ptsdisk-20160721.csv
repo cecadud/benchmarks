@@ -1,0 +1,32 @@
+ptsdisk-20160721
+
+ ,"ptsdisk"
+Processor,Intel Xeon E5-2650 0 @ 1.80GHz (2 Cores)
+Memory,8192MB
+Disk,79GB
+OS,Ubuntu 14.04
+Kernel,3.13.0-92-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+System Layer,Xen 3.4.3.amazon Hypervisor
+
+ ,"ptsdisk"
+"AIO-Stress - Random Write",888.16
+"SQLite - Timed SQLite Insertions",52.30
+"FS-Mark - 1000 Files, 1MB Size",55.07
+"Dbench - 12 Clients",233.50
+"Dbench - 48 Clients",310.49
+"Dbench - 128 Clients",39.54
+"Dbench - 1 Clients",42.99
+"IOzone - 8GB Read Performance",10.23
+"IOzone - 8GB Write Performance",10.26
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",1102.66
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",0.89
+"Compile Bench - Test: Compile",70.30
+"Compile Bench - Test: Initial Create",40.27
+"Compile Bench - Test: Read Compiled Tree",211.47
+"Unpacking The Linux Kernel - linux-2.6.32.tar.bz2",18.71
+"PostMark - Disk Transaction Performance",1282
+"Gzip Compression - 2GB File Compression",28.04
+"Apache Benchmark - Static Web Page Serving",4693.99
+
