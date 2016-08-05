@@ -1,0 +1,70 @@
+pts-all-tests-20160803
+
+ ,"pts-all-tests-2"
+Processor,16 x Intel Core i7 9xx (Nehalem Class Core i7) @ 2.93GHz (16 Cores)
+Motherboard,OpenStack Foundation Nova v2015.1.4
+Chipset,Intel 440FX- 82441FX PMC
+Memory,16384MB
+Disk,79GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,Ubuntu 14.04
+Kernel,3.13.0-92-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+
+ ,"pts-all-tests-2"
+"AIO-Stress - Random Write",712.92
+"SQLite - Timed SQLite Insertions",136.05
+"FS-Mark - 1000 Files, 1MB Size",25.00
+"Dbench - 12 Clients",185.52
+"Dbench - 48 Clients",313.70
+"Dbench - 128 Clients",366.02
+"Dbench - 1 Clients",41.78
+"IOzone - 8GB Read Performance",1327.00
+"IOzone - 8GB Write Performance",67.47
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",1930.84
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",4.74
+"Compile Bench - Test: Compile",170.26
+"Compile Bench - Test: Initial Create",69.33
+"Compile Bench - Test: Read Compiled Tree",722.23
+"Unpacking The Linux Kernel - linux-2.6.32.tar.bz2",19.89
+"PostMark - Disk Transaction Performance",2514
+"RAMspeed SMP - Integer Add",13617.28
+"RAMspeed SMP - Integer Copy",13728.46
+"RAMspeed SMP - Integer Scale",13662.67
+"RAMspeed SMP - Floating-Point Add",14566.42
+"Stream - Type: Copy",16387.50
+"Stream - Type: Scale",15642.98
+"Stream - Type: Triad",17135.38
+"Stream - Add",17865.36
+"Stream - Copy",16387.50
+"Stream - Scale",15642.98
+"Stream - Type: Add",17865.36
+"NAS Parallel Benchmarks - Test / Class: LU.A",12013.90
+"Timed MAFFT Alignment - Multiple Sequence Alignment",10.59
+"CacheBench - Read Cache",2288.49
+"CacheBench - Write Cache",10941.43
+"Gcrypt Library - CAMELLIA256-ECB Cipher",3670
+"TSCP - AI Chess Performance",691425
+"John The Ripper - Traditional DES",11359333
+"John The Ripper - Blowfish",5869
+"x264 - H.264 Video Encoding",90.96
+"GraphicsMagick - HWB Color Space",83
+"GraphicsMagick - Local Adaptive Thresholding",64
+"GraphicsMagick - Sharpen",52
+"GraphicsMagick - Resizing",82
+"Himeno Benchmark - Poisson Pressure Solver",1062.10
+"7-Zip Compression - Compress Speed Test",16383
+"C-Ray - Total Time",16.43
+"Parallel BZIP2 Compression - 256MB File Compression",8.85
+"Smallpt - Global Illumination Renderer; 100 Samples",69
+"Gzip Compression - 2GB File Compression",24.07
+"Crafty - Elapsed Time",119.81
+"FLAC Audio Encoding - WAV To FLAC",14.98
+"LAME MP3 Encoding - WAV To MP3",23.34
+"FFmpeg - H.264 HD To NTSC DV",32.99
+"Tachyon - Total Time",10.69
+"OpenSSL - RSA 4096-bit Performance",559.73
+"Apache Benchmark - Static Web Page Serving",6392.07
+

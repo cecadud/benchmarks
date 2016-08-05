@@ -1,0 +1,190 @@
+Connecting to host bouygues.testdebit.info, port 5201
+[  4] local 192.168.100.178 port 43614 connected to 89.84.127.53 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   642 KBytes  5.26 Mbits/sec    0    209 KBytes       
+[  4]   1.00-2.00   sec  3.92 MBytes  32.8 Mbits/sec  854    773 KBytes       
+[  4]   2.00-3.00   sec  6.25 MBytes  52.5 Mbits/sec  550    674 KBytes       
+[  4]   3.00-4.00   sec  4.55 MBytes  38.2 Mbits/sec    0    728 KBytes       
+[  4]   4.00-5.00   sec  4.56 MBytes  38.2 Mbits/sec   11    736 KBytes       
+[  4]   5.00-6.00   sec  2.26 MBytes  19.0 Mbits/sec    1    404 KBytes       
+[  4]   6.00-7.00   sec  2.07 MBytes  17.3 Mbits/sec    0    432 KBytes       
+[  4]   7.00-8.00   sec  3.09 MBytes  26.0 Mbits/sec    0    448 KBytes       
+[  4]   8.00-9.00   sec  2.04 MBytes  17.1 Mbits/sec    0    457 KBytes       
+[  4]   9.00-10.00  sec  3.13 MBytes  26.3 Mbits/sec    0    458 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  32.5 MBytes  27.3 Mbits/sec  1416             sender
+[  4]   0.00-10.00  sec  30.2 MBytes  25.3 Mbits/sec                  receiver
+
+iperf Done.
+Connecting to host bouygues.testdebit.info, port 5201
+[  4] local 192.168.100.178 port 43616 connected to 89.84.127.53 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   602 KBytes  4.93 Mbits/sec    0    215 KBytes       
+[  4]   1.00-2.00   sec  4.21 MBytes  35.3 Mbits/sec  719   1.06 MBytes       
+[  4]   2.00-3.00   sec  6.25 MBytes  52.5 Mbits/sec  453   16.1 KBytes       
+[  4]   3.00-4.00   sec  2.19 MBytes  18.4 Mbits/sec   47    514 KBytes       
+[  4]   4.00-5.00   sec  3.18 MBytes  26.6 Mbits/sec    0    561 KBytes       
+[  4]   5.00-6.00   sec  3.18 MBytes  26.6 Mbits/sec    0    595 KBytes       
+[  4]   6.00-7.00   sec  3.14 MBytes  26.3 Mbits/sec    0    612 KBytes       
+[  4]   7.00-8.00   sec  3.19 MBytes  26.7 Mbits/sec    0    622 KBytes       
+[  4]   8.00-9.00   sec  4.19 MBytes  35.1 Mbits/sec    0    624 KBytes       
+[  4]   9.00-10.00  sec  3.09 MBytes  25.9 Mbits/sec    0    624 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  33.2 MBytes  27.8 Mbits/sec  1219             sender
+[  4]   0.00-10.00  sec  31.7 MBytes  26.6 Mbits/sec                  receiver
+
+iperf Done.
+Connecting to host bouygues.testdebit.info, port 5201
+[  4] local 192.168.100.178 port 43618 connected to 89.84.127.53 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   602 KBytes  4.93 Mbits/sec    0    215 KBytes       
+[  4]   1.00-2.00   sec  4.32 MBytes  36.2 Mbits/sec   90    791 KBytes       
+[  4]   2.00-3.00   sec  4.00 MBytes  33.5 Mbits/sec   48    598 KBytes       
+[  4]   3.00-4.00   sec  2.93 MBytes  24.6 Mbits/sec    0    638 KBytes       
+[  4]   4.00-5.00   sec  3.84 MBytes  32.2 Mbits/sec    0    663 KBytes       
+[  4]   5.00-6.00   sec  2.90 MBytes  24.3 Mbits/sec  127    495 KBytes       
+[  4]   6.00-7.00   sec  2.86 MBytes  24.0 Mbits/sec   95    372 KBytes       
+[  4]   7.00-8.00   sec  1.90 MBytes  15.9 Mbits/sec    0    404 KBytes       
+[  4]   8.00-9.00   sec  1.96 MBytes  16.4 Mbits/sec    0    423 KBytes       
+[  4]   9.00-10.00  sec  2.90 MBytes  24.3 Mbits/sec    0    432 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  28.2 MBytes  23.6 Mbits/sec  360             sender
+[  4]   0.00-10.00  sec  25.9 MBytes  21.8 Mbits/sec                  receiver
+
+iperf Done.
+Connecting to host bouygues.testdebit.info, port 5201
+[  4] local 192.168.100.178 port 43620 connected to 89.84.127.53 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1.27 MBytes  10.7 Mbits/sec    0    385 KBytes       
+[  4]   1.00-2.00   sec  2.99 MBytes  25.1 Mbits/sec  688    978 KBytes       
+[  4]   2.00-3.00   sec  2.50 MBytes  21.0 Mbits/sec   51    831 KBytes       
+[  4]   3.00-4.00   sec  1.25 MBytes  10.5 Mbits/sec  333   1.34 KBytes       
+[  4]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec    1   1.34 KBytes       
+[  4]   5.00-6.00   sec  0.00 Bytes  0.00 bits/sec    1   1.34 KBytes       
+[  4]   6.00-7.00   sec  0.00 Bytes  0.00 bits/sec    0   1.34 KBytes       
+[  4]   7.00-8.00   sec  0.00 Bytes  0.00 bits/sec    0   1.34 KBytes       
+[  4]   8.00-9.00   sec  0.00 Bytes  0.00 bits/sec    1   1.34 KBytes       
+[  4]   9.00-10.00  sec  0.00 Bytes  0.00 bits/sec    0   1.34 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  8.01 MBytes  6.72 Mbits/sec  1075             sender
+[  4]   0.00-10.00  sec  7.22 MBytes  6.06 Mbits/sec                  receiver
+
+iperf Done.
+Connecting to host bouygues.testdebit.info, port 5201
+[  4] local 192.168.100.178 port 43622 connected to 89.84.127.53 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   661 KBytes  5.41 Mbits/sec    0    209 KBytes       
+[  4]   1.00-2.00   sec  5.24 MBytes  44.0 Mbits/sec  319    968 KBytes       
+[  4]   2.00-3.00   sec  3.26 MBytes  27.4 Mbits/sec  172    716 KBytes       
+[  4]   3.00-4.00   sec  4.53 MBytes  38.0 Mbits/sec    0    769 KBytes       
+[  4]   4.00-5.00   sec  4.55 MBytes  38.1 Mbits/sec    0    803 KBytes       
+[  4]   5.00-6.00   sec  2.27 MBytes  19.0 Mbits/sec   45    591 KBytes       
+[  4]   6.00-7.00   sec  4.20 MBytes  35.2 Mbits/sec    0    635 KBytes       
+[  4]   7.00-8.00   sec  4.14 MBytes  34.8 Mbits/sec    0    663 KBytes       
+[  4]   8.00-9.00   sec  3.10 MBytes  26.0 Mbits/sec    0    677 KBytes       
+[  4]   9.00-10.00  sec  3.16 MBytes  26.5 Mbits/sec   34    592 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  35.1 MBytes  29.4 Mbits/sec  570             sender
+[  4]   0.00-10.00  sec  33.6 MBytes  28.2 Mbits/sec                  receiver
+
+iperf Done.
+Connecting to host bouygues.testdebit.info, port 5201
+[  4] local 192.168.100.178 port 43624 connected to 89.84.127.53 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   849 KBytes  6.95 Mbits/sec    2    145 KBytes       
+[  4]   1.00-2.00   sec   822 KBytes  6.73 Mbits/sec    0    176 KBytes       
+[  4]   2.00-3.00   sec   967 KBytes  7.92 Mbits/sec    1    138 KBytes       
+[  4]   3.00-4.00   sec   994 KBytes  8.14 Mbits/sec    0    152 KBytes       
+[  4]   4.00-5.00   sec   994 KBytes  8.14 Mbits/sec    0    157 KBytes       
+[  4]   5.00-6.00   sec   988 KBytes  8.10 Mbits/sec    0    157 KBytes       
+[  4]   6.00-7.00   sec   967 KBytes  7.92 Mbits/sec    0    157 KBytes       
+[  4]   7.00-8.00   sec   819 KBytes  6.71 Mbits/sec    0    160 KBytes       
+[  4]   8.00-9.00   sec  1.10 MBytes  9.24 Mbits/sec    0    169 KBytes       
+[  4]   9.00-10.00  sec  1.11 MBytes  9.35 Mbits/sec    0    185 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  9.44 MBytes  7.92 Mbits/sec    3             sender
+[  4]   0.00-10.00  sec  9.19 MBytes  7.71 Mbits/sec                  receiver
+
+iperf Done.
+Connecting to host bouygues.testdebit.info, port 5201
+[  4] local 192.168.100.178 port 43626 connected to 89.84.127.53 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1.09 MBytes  9.15 Mbits/sec    0    430 KBytes       
+[  4]   1.00-2.00   sec  5.92 MBytes  49.6 Mbits/sec  509    862 KBytes       
+[  4]   2.00-3.00   sec  3.54 MBytes  29.7 Mbits/sec  151    595 KBytes       
+[  4]   3.00-4.00   sec  4.18 MBytes  35.1 Mbits/sec    0    638 KBytes       
+[  4]   4.00-5.00   sec  3.13 MBytes  26.2 Mbits/sec    2    473 KBytes       
+[  4]   5.00-6.00   sec  3.14 MBytes  26.3 Mbits/sec    0    512 KBytes       
+[  4]   6.00-7.00   sec  3.20 MBytes  26.9 Mbits/sec    0    537 KBytes       
+[  4]   7.00-8.00   sec  3.17 MBytes  26.6 Mbits/sec    0    551 KBytes       
+[  4]   8.00-9.00   sec  3.22 MBytes  27.0 Mbits/sec    0    556 KBytes       
+[  4]   9.00-10.00  sec  3.11 MBytes  26.1 Mbits/sec    0    556 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  33.7 MBytes  28.3 Mbits/sec  662             sender
+[  4]   0.00-10.00  sec  32.1 MBytes  26.9 Mbits/sec                  receiver
+
+iperf Done.
+Connecting to host bouygues.testdebit.info, port 5201
+[  4] local 192.168.100.178 port 43628 connected to 89.84.127.53 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec   675 KBytes  5.53 Mbits/sec    0    215 KBytes       
+[  4]   1.00-2.00   sec  4.41 MBytes  37.0 Mbits/sec  896   1000 KBytes       
+[  4]   2.00-3.00   sec  3.65 MBytes  30.6 Mbits/sec  305    469 KBytes       
+[  4]   3.00-4.00   sec  5.91 MBytes  49.6 Mbits/sec    0    739 KBytes       
+[  4]   4.00-5.00   sec  3.28 MBytes  27.5 Mbits/sec   49    553 KBytes       
+[  4]   5.00-6.00   sec  3.13 MBytes  26.3 Mbits/sec    0    591 KBytes       
+[  4]   6.00-7.00   sec  4.18 MBytes  35.1 Mbits/sec    0    615 KBytes       
+[  4]   7.00-8.00   sec  3.13 MBytes  26.3 Mbits/sec    0    628 KBytes       
+[  4]   8.00-9.00   sec  4.20 MBytes  35.2 Mbits/sec    0    634 KBytes       
+[  4]   9.00-10.00  sec  3.09 MBytes  25.9 Mbits/sec    0    634 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  35.7 MBytes  29.9 Mbits/sec  1250             sender
+[  4]   0.00-10.00  sec  33.9 MBytes  28.4 Mbits/sec                  receiver
+
+iperf Done.
+Connecting to host bouygues.testdebit.info, port 5201
+[  4] local 192.168.100.178 port 43632 connected to 89.84.127.53 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1018 KBytes  8.34 Mbits/sec    0    395 KBytes       
+[  4]   1.00-2.00   sec  3.76 MBytes  31.5 Mbits/sec  380   1.34 KBytes       
+[  4]   2.00-3.00   sec  1.25 MBytes  10.5 Mbits/sec  178   4.03 KBytes       
+[  4]   3.00-4.00   sec  3.75 MBytes  31.5 Mbits/sec   16    379 KBytes       
+[  4]   4.00-5.00   sec  3.23 MBytes  27.1 Mbits/sec   54    568 KBytes       
+[  4]   5.00-6.00   sec  3.12 MBytes  26.2 Mbits/sec    0    632 KBytes       
+[  4]   6.00-7.00   sec  4.35 MBytes  36.5 Mbits/sec    0    679 KBytes       
+[  4]   7.00-8.00   sec  3.42 MBytes  28.7 Mbits/sec    0    710 KBytes       
+[  4]   8.00-9.00   sec  5.69 MBytes  47.8 Mbits/sec    0    732 KBytes       
+[  4]   9.00-10.00  sec  3.41 MBytes  28.6 Mbits/sec    0    741 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  33.0 MBytes  27.7 Mbits/sec  628             sender
+[  4]   0.00-10.00  sec  31.4 MBytes  26.3 Mbits/sec                  receiver
+
+iperf Done.
+Connecting to host bouygues.testdebit.info, port 5201
+[  4] local 192.168.100.178 port 43634 connected to 89.84.127.53 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-1.00   sec  1.47 MBytes  12.4 Mbits/sec    0    430 KBytes       
+[  4]   1.00-2.00   sec  5.92 MBytes  49.7 Mbits/sec  521    786 KBytes       
+[  4]   2.00-3.00   sec  4.52 MBytes  37.9 Mbits/sec    0    843 KBytes       
+[  4]   3.00-4.00   sec  4.66 MBytes  39.1 Mbits/sec    0    886 KBytes       
+[  4]   4.00-5.00   sec  5.53 MBytes  46.4 Mbits/sec   56    662 KBytes       
+[  4]   5.00-6.00   sec  3.34 MBytes  28.0 Mbits/sec    0    705 KBytes       
+[  4]   6.00-7.00   sec  4.52 MBytes  37.9 Mbits/sec    0    733 KBytes       
+[  4]   7.00-8.00   sec  4.55 MBytes  38.1 Mbits/sec    0    751 KBytes       
+[  4]   8.00-9.00   sec  4.47 MBytes  37.5 Mbits/sec    0    760 KBytes       
+[  4]   9.00-10.00  sec  4.50 MBytes  37.8 Mbits/sec    0    761 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-10.00  sec  43.5 MBytes  36.5 Mbits/sec  577             sender
+[  4]   0.00-10.00  sec  41.9 MBytes  35.2 Mbits/sec                  receiver
+
+iperf Done.

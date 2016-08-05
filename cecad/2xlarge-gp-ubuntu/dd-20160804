@@ -1,0 +1,353 @@
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 8.39563 s, 63.9 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 6.81096 s, 78.8 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 6.63476 s, 80.9 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 9.25039 s, 58.0 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 8.59413 s, 62.5 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 7.98466 s, 67.2 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+1000000000 bytes (1.0 GB) copied, 14.4661 s, 69.1 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+1000000000 bytes (1.0 GB) copied, 14.1634 s, 70.6 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+1000000000 bytes (1.0 GB) copied, 13.6458 s, 73.3 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+1000000000 bytes (1.0 GB) copied, 15.1466 s, 66.0 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+1000000000 bytes (1.0 GB) copied, 17.1608 s, 58.3 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+1000000000 bytes (1.0 GB) copied, 15.3636 s, 65.1 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=2 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+2+0 records in
+2+0 records out
+2000000000 bytes (2.0 GB) copied, 27.2281 s, 73.5 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=2 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+2+0 records in
+2+0 records out
+2000000000 bytes (2.0 GB) copied, 26.7622 s, 74.7 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=2 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+2+0 records in
+2+0 records out
+2000000000 bytes (2.0 GB) copied, 27.3239 s, 73.2 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=2 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+2+0 records in
+2+0 records out
+2000000000 bytes (2.0 GB) copied, 32.1506 s, 62.2 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=2 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+2+0 records in
+2+0 records out
+2000000000 bytes (2.0 GB) copied, 32.341 s, 61.8 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=2 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+2+0 records in
+2+0 records out
+2000000000 bytes (2.0 GB) copied, 34.8316 s, 57.4 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=4 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+4+0 records in
+4+0 records out
+4000000000 bytes (4.0 GB) copied, 59.0489 s, 67.7 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=4 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+4+0 records in
+4+0 records out
+4000000000 bytes (4.0 GB) copied, 56.0045 s, 71.4 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=4 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+4+0 records in
+4+0 records out
+4000000000 bytes (4.0 GB) copied, 55.391 s, 72.2 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=4 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+4+0 records in
+4+0 records out
+4000000000 bytes (4.0 GB) copied, 63.8987 s, 62.6 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=4 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+4+0 records in
+4+0 records out
+4000000000 bytes (4.0 GB) copied, 62.5995 s, 63.9 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=4 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+4+0 records in
+4+0 records out
+4000000000 bytes (4.0 GB) copied, 70.6892 s, 56.6 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=8 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+8+0 records in
+8+0 records out
+8000000000 bytes (8.0 GB) copied, 111.981 s, 71.4 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=8 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+8+0 records in
+8+0 records out
+8000000000 bytes (8.0 GB) copied, 111.158 s, 72.0 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=8 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+8+0 records in
+8+0 records out
+8000000000 bytes (8.0 GB) copied, 111.126 s, 72.0 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=8 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+8+0 records in
+8+0 records out
+8000000000 bytes (8.0 GB) copied, 156.253 s, 51.2 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=8 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+8+0 records in
+8+0 records out
+8000000000 bytes (8.0 GB) copied, 125.671 s, 63.7 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=1GB count=8 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+8+0 records in
+8+0 records out
+8000000000 bytes (8.0 GB) copied, 129.281 s, 61.9 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+2000000000 bytes (2.0 GB) copied, 29.6621 s, 67.4 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+2000000000 bytes (2.0 GB) copied, 29.2185 s, 68.4 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+2000000000 bytes (2.0 GB) copied, 29.223 s, 68.4 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+2000000000 bytes (2.0 GB) copied, 30.4609 s, 65.7 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+2000000000 bytes (2.0 GB) copied, 32.4869 s, 61.6 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+1+0 records in
+1+0 records out
+2000000000 bytes (2.0 GB) copied, 34.6033 s, 57.8 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=2 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+2+0 records in
+2+0 records out
+4000000000 bytes (4.0 GB) copied, 57.0095 s, 70.2 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=2 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+2+0 records in
+2+0 records out
+4000000000 bytes (4.0 GB) copied, 57.6786 s, 69.3 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=2 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+2+0 records in
+2+0 records out
+4000000000 bytes (4.0 GB) copied, 58.0201 s, 68.9 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=2 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+2+0 records in
+2+0 records out
+4000000000 bytes (4.0 GB) copied, 67.0474 s, 59.7 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=2 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+2+0 records in
+2+0 records out
+4000000000 bytes (4.0 GB) copied, 63.598 s, 62.9 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=2 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+2+0 records in
+2+0 records out
+4000000000 bytes (4.0 GB) copied, 64.1778 s, 62.3 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=4 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+4+0 records in
+4+0 records out
+8000000000 bytes (8.0 GB) copied, 121.123 s, 66.0 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=4 oflag=direct
+}sudo: unable to resolve host cecad-2xlarge-gp
+4+0 records in
+4+0 records out
+8000000000 bytes (8.0 GB) copied, 116.825 s, 68.5 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=4 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+4+0 records in
+4+0 records out
+8000000000 bytes (8.0 GB) copied, 117.67 s, 68.0 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=4 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+4+0 records in
+4+0 records out
+8000000000 bytes (8.0 GB) copied, 136.861 s, 58.5 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=4 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+4+0 records in
+4+0 records out
+8000000000 bytes (8.0 GB) copied, 126.352 s, 63.3 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=2GB count=4 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+4+0 records in
+4+0 records out
+8000000000 bytes (8.0 GB) copied, 123.808 s, 64.6 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=4GB count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 33.6609 s, 63.8 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=4GB count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 32.1772 s, 66.7 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=4GB count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 35.8151 s, 60.0 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=4GB count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 33.2387 s, 64.6 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=4GB count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 33.7317 s, 63.7 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=4GB count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 33.2555 s, 64.6 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=4GB count=2 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 62.4403 s, 68.8 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=4GB count=2 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 63.4829 s, 67.7 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=4GB count=2 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 62.2087 s, 69.0 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=4GB count=2 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 68.2173 s, 63.0 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=4GB count=2 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 69.6003 s, 61.7 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=4GB count=2 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 76.5013 s, 56.1 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=4GB count=2 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 72.7263 s, 59.1 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=4GB count=2 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 74.8455 s, 57.4 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=8GB count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 36.9708 s, 58.1 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=8GB count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 36.4824 s, 58.9 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=8GB count=1 oflag=direct
+sudo: unable to resolve host cecad-2xlarge-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 35.5613 s, 60.4 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=8GB count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 34.2951 s, 62.6 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=8GB count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 34.4274 s, 62.4 MB/s
+ubuntu@cecad-2xlarge-gp:~$ sudo dd if=/dev/zero of=test bs=8GB count=1 oflag=sync
+sudo: unable to resolve host cecad-2xlarge-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 34.6081 s, 62.1 MB/s
+
+
+
+
+
