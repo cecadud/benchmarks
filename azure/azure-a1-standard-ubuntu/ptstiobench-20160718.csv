@@ -1,0 +1,40 @@
+ptstiobench-20160718
+
+ ,"ptstiobench2"
+Processor,AMD Opteron 4171 HE @ 2.09GHz (1 Core)
+Motherboard,Microsoft Virtual Machine v7.0
+Chipset,Intel 440BX/ZX/DX
+Memory,2048MB
+Disk,31GB Virtual Disk + 75GB Virtual Disk
+Graphics,Microsoft Hyper-V virtual VGA
+OS,Ubuntu 14.04
+Kernel,3.19.0-65-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+Screen Resolution,1152x864
+System Layer,Microsoft Hyper-V Server
+
+ ,"ptstiobench2"
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 4",837.60
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 8",844.25
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 4",885.06
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 8",863.87
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 4",929.85
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 8",860.02
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 4",906.63
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 8",29.06
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 16",790.10
+"Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 32",840.69
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 16",854.12
+"Threaded I/O Tester - Test: Read - Size Per Thread: 64MB - Thread Count: 32",27.48
+"Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 4",0.24
+"Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 8",0.41
+"Threaded I/O Tester - Test: Write - Size Per Thread: 64MB - Thread Count: 4",0.24
+"Threaded I/O Tester - Test: Write - Size Per Thread: 64MB - Thread Count: 8",0.40
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 16",23.17
+"Threaded I/O Tester - Test: Read - Size Per Thread: 128MB - Thread Count: 32",18.60
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 16",25.15
+"Threaded I/O Tester - Test: Read - Size Per Thread: 256MB - Thread Count: 32",21.44
+"Threaded I/O Tester - Test: Write - Size Per Thread: 128MB - Thread Count: 4",0.22
+"Threaded I/O Tester - Test: Write - Size Per Thread: 128MB - Thread Count: 8",0.39
+

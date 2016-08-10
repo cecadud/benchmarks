@@ -1,0 +1,41 @@
+ptscpu-20161507
+
+ ,"ptscpu"
+Processor,AMD Opteron 4171 HE @ 2.09GHz (1 Core)
+Motherboard,Microsoft Virtual Machine v7.0
+Chipset,Intel 440BX/ZX/DX
+Memory,2048MB
+Disk,31GB Virtual Disk + 75GB Virtual Disk
+Graphics,Microsoft Hyper-V virtual VGA
+OS,Ubuntu 14.04
+Kernel,3.19.0-65-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+Screen Resolution,1152x864
+System Layer,Microsoft Hyper-V Server
+
+ ,"ptscpu"
+"NAS Parallel Benchmarks - Test / Class: LU.A",1047.40
+"Timed MAFFT Alignment - Multiple Sequence Alignment",61.11
+"Gcrypt Library - CAMELLIA256-ECB Cipher",6297
+"TSCP - AI Chess Performance",401032
+"John The Ripper - Traditional DES",1563667
+"John The Ripper - Blowfish",484
+"x264 - H.264 Video Encoding",12.15
+"GraphicsMagick - HWB Color Space",41
+"GraphicsMagick - Local Adaptive Thresholding",35
+"GraphicsMagick - Sharpen",10
+"GraphicsMagick - Resizing",31
+"Himeno Benchmark - Poisson Pressure Solver",333.51
+"7-Zip Compression - Compress Speed Test",1797
+"C-Ray - Total Time",333.51
+"Parallel BZIP2 Compression - 256MB File Compression",124.10
+"Smallpt - Global Illumination Renderer; 100 Samples",1485
+"Crafty - Elapsed Time",198.49
+"FLAC Audio Encoding - WAV To FLAC",23.84
+"LAME MP3 Encoding - WAV To MP3",41.28
+"FFmpeg - H.264 HD To NTSC DV",82.23
+"Tachyon - Total Time",224.03
+"OpenSSL - RSA 4096-bit Performance",50.60
+"Apache Benchmark - Static Web Page Serving",2837.49
+
