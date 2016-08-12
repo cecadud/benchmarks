@@ -1,0 +1,71 @@
+pts-all-tests-20160811
+
+ ,"pts-all-tests-2"
+Processor,AMD Opteron 4171 HE @ 2.09GHz (4 Cores)
+Motherboard,Microsoft Virtual Machine v7.0
+Chipset,Intel 440BX/ZX/DX
+Memory,7168MB
+Disk,31GB Virtual Disk + 306GB Virtual Disk
+Graphics,Microsoft Hyper-V virtual VGA
+OS,Ubuntu 14.04
+Kernel,3.19.0-65-generic (x86_64)
+Compiler,GCC 4.8
+File-System,ext4
+Screen Resolution,1152x864
+System Layer,Microsoft Hyper-V Server
+
+ ,"pts-all-tests-2"
+"AIO-Stress - Random Write",459.68
+"SQLite - Timed SQLite Insertions",504.99
+"FS-Mark - 1000 Files, 1MB Size",21.00
+"Dbench - 12 Clients",71.16
+"Dbench - 48 Clients",160.79
+"Dbench - 128 Clients",149.61
+"Dbench - 1 Clients",12.80
+"IOzone - 8GB Read Performance",408.51
+"IOzone - 8GB Write Performance",85.53
+"Threaded I/O Tester - 64MB Random Read - 32 Threads",2811.76
+"Threaded I/O Tester - 64MB Random Write - 32 Threads",1.72
+"Compile Bench - Test: Compile",128.83
+"Compile Bench - Test: Initial Create",33.41
+"Compile Bench - Test: Read Compiled Tree",378.82
+"Unpacking The Linux Kernel - linux-2.6.32.tar.bz2",22.46
+"PostMark - Disk Transaction Performance",1943
+"RAMspeed SMP - Integer Add",5546.96
+"RAMspeed SMP - Integer Copy",6252.61
+"RAMspeed SMP - Integer Scale",6030.91
+"RAMspeed SMP - Floating-Point Add",6468.62
+"Stream - Type: Copy",8021.48
+"Stream - Type: Scale",8022.48
+"Stream - Type: Triad",8966.88
+"Stream - Add",8942.50
+"Stream - Copy",8021.48
+"Stream - Scale",8022.48
+"Stream - Type: Add",8942.50
+"NAS Parallel Benchmarks - Test / Class: LU.A",3515.68
+"Timed MAFFT Alignment - Multiple Sequence Alignment",19.09
+"CacheBench - Read Cache",1018.81
+"CacheBench - Write Cache",5616.94
+"Gcrypt Library - CAMELLIA256-ECB Cipher",6050
+"TSCP - AI Chess Performance",406610
+"John The Ripper - Traditional DES",5012000
+"John The Ripper - Blowfish",1818
+"x264 - H.264 Video Encoding",42.07
+"GraphicsMagick - HWB Color Space",72
+"GraphicsMagick - Local Adaptive Thresholding",37
+"GraphicsMagick - Sharpen",30
+"GraphicsMagick - Resizing",63
+"Himeno Benchmark - Poisson Pressure Solver",351.65
+"7-Zip Compression - Compress Speed Test",5686
+"C-Ray - Total Time",79.37
+"Parallel BZIP2 Compression - 256MB File Compression",35.42
+"Smallpt - Global Illumination Renderer; 100 Samples",358
+"Gzip Compression - 2GB File Compression",33.14
+"Crafty - Elapsed Time",189.52
+"FLAC Audio Encoding - WAV To FLAC",21.92
+"LAME MP3 Encoding - WAV To MP3",39.31
+"FFmpeg - H.264 HD To NTSC DV",30.92
+"Tachyon - Total Time",54.24
+"OpenSSL - RSA 4096-bit Performance",209.67
+"Apache Benchmark - Static Web Page Serving",9887.13
+
