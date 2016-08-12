@@ -1,0 +1,289 @@
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=512M count=1 oflag=direct
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 8.31917 s, 64.5 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=512M count=1 oflag=direct
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 8.24059 s, 65.1 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=512M count=1 oflag=direct
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 10.9572 s, 49.0 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=512M count=1 oflag=sync
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 9.63721 s, 55.7 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=512M count=1 oflag=sync
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 7.53555 s, 71.2 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=512M count=1 oflag=sync
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 8.66469 s, 62.0 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=1 oflag=direct
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 20.4068 s, 52.6 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=1 oflag=direct
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 17.792 s, 60.3 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=1 oflag=direct
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 22.7893 s, 47.1 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=1 oflag=direct
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 18.4225 s, 58.3 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=1 oflag=sync
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 20.9569 s, 51.2 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=1 oflag=sync
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 17.4448 s, 61.6 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=2 oflag=direct
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 33.9783 s, 63.2 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=2 oflag=direct
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 33.8227 s, 63.5 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=2 oflag=direct
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 34.6954 s, 61.9 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=2 oflag=direct
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 38.6165 s, 55.6 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=2 oflag=sync
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 44.963 s, 47.8 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=2 oflag=sync
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 42.0042 s, 51.1 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=2 oflag=sync
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 38.5498 s, 55.7 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=4 oflag=direct
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 79.2465 s, 54.2 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=4 oflag=direct
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 70.6645 s, 60.8 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=4 oflag=direct
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 66.7698 s, 64.3 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=4 oflag=sync
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 81.2519 s, 52.9 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=4 oflag=sync
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 78.4459 s, 54.8 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=4 oflag=sync
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 92.3032 s, 46.5 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=8 oflag=direct
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 143.837 s, 59.7 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=8 oflag=direct
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 143.628 s, 59.8 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=8 oflag=direct
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 159.68 s, 53.8 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=8 oflag=sync
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 148.212 s, 58.0 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=8 oflag=sync
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 159.651 s, 53.8 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=1G count=8 oflag=sync
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 159.217 s, 54.0 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 42.2644 s, 50.8 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 40.7356 s, 52.7 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 35.7193 s, 60.1 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 36.5241 s, 58.8 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 48.0706 s, 44.7 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 42.9115 s, 50.0 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=2 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 72.3087 s, 59.4 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=2 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 85.2997 s, 50.4 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=2 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 76.1632 s, 56.4 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=2 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 77.5191 s, 55.4 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=2 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 75.9655 s, 56.5 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=2 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 81.8381 s, 52.5 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=4 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 161.01 s, 53.4 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=4 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 152.475 s, 56.3 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=4 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 152.671 s, 56.3 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=4 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 176.753 s, 48.6 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=4 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 159.118 s, 54.0 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=2G count=4 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 154.808 s, 55.5 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=4G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 44.7593 s, 48.0 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=4G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 49.8075 s, 43.1 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=4G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 40.1207 s, 53.5 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=4G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 40.6185 s, 52.9 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=4G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 42.8131 s, 50.2 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=4G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 45.0214 s, 47.7 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=4G count=2 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 72.4921 s, 59.2 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=4G count=2 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 81.4669 s, 52.7 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=4G count=2 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 84.5304 s, 50.8 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=4G count=2 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 83.7178 s, 51.3 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=4G count=2 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 75.5985 s, 56.8 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=4G count=2 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 81.7456 s, 52.5 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=8G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 35.8965 s, 59.8 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=8G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 38.1927 s, 56.2 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=8G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 38.5576 s, 55.7 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=8G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 43.7436 s, 49.1 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=8G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 49.4654 s, 43.4 MB/s
+cecad@A4Standard:~$ dd if=/dev/zero of=test bs=8G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 42.3079 s, 50.8 MB/s
+
+
+

@@ -1,0 +1,285 @@
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=direct
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 5.07542 s, 106 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=direct
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 5.15568 s, 104 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=direct
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 5.25513 s, 102 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=sync
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 6.04343 s, 88.8 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=sync
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 5.61246 s, 95.7 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=sync
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 5.96263 s, 90.0 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=1 oflag=direct
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 10.4821 s, 102 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=1 oflag=direct
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 10.3768 s, 103 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=1 oflag=direct
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 10.6007 s, 101 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=1 oflag=sync
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 12.1633 s, 88.3 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=1 oflag=sync
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 12.1701 s, 88.2 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=1 oflag=sync
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 11.5621 s, 92.9 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=2 oflag=direct
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 18.8056 s, 114 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=2 oflag=direct
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 18.9179 s, 114 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=2 oflag=direct
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 19.1714 s, 112 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=2 oflag=sync
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 21.2871 s, 101 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=2 oflag=sync
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 22.0615 s, 97.3 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=2 oflag=sync
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 21.3826 s, 100 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=4 oflag=direct
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 37.3732 s, 115 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=4 oflag=direct
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 37.0282 s, 116 MB/s
+cecad@A4Standard:/mnt$ 
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=4 oflag=direct
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 37.0072 s, 116 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=4 oflag=sync
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 43.7068 s, 98.3 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=4 oflag=sync
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 43.8803 s, 97.9 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=4 oflag=sync
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 43.709 s, 98.3 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=8 oflag=direct
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 74.8813 s, 115 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=8 oflag=direct
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 75.279 s, 114 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=8 oflag=direct
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 74.7884 s, 115 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=8 oflag=sync
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 87.3582 s, 98.3 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=8 oflag=sync
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 86.3809 s, 99.4 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=1G count=8 oflag=sync
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 85.8095 s, 100 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 20.8036 s, 103 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 21.2151 s, 101 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 21.3832 s, 100 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 21.2367 s, 101 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 20.9497 s, 103 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 21.3194 s, 101 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=2 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 39.0313 s, 110 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=2 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 39.2627 s, 109 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=2 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 38.9265 s, 110 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=2 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 40.7537 s, 105 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=2 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 41.4985 s, 103 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=2 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 40.8633 s, 105 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=4 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 74.4849 s, 115 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=4 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 75.6696 s, 114 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=4 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 76.0552 s, 113 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=4 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 82.1149 s, 105 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=4 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 82.0761 s, 105 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=2G count=4 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 118.031 s, 72.8 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=4G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 40.8198 s, 52.6 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=4G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 45.4535 s, 47.2 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=4G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 45.1993 s, 47.5 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=4G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 45.606 s, 47.1 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=4G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 43.5112 s, 49.4 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=4G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 44.3362 s, 48.4 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=4G count=2 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 85.8573 s, 50.0 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=4G count=2 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 84.3839 s, 50.9 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=4G count=2 oflag=direct
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 83.1852 s, 51.6 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=4G count=2 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 87.7414 s, 49.0 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=4G count=2 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 93.8957 s, 45.7 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=4G count=2 oflag=sync
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 85.8157 s, 50.0 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=8G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 43.7834 s, 49.0 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=8G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 42.0359 s, 51.1 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=8G count=1 oflag=direct
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 44.2566 s, 48.5 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=8G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 44.2411 s, 48.5 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=8G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 44.4166 s, 48.3 MB/s
+cecad@A4Standard:/mnt$ sudo dd if=/dev/zero of=test bs=8G count=1 oflag=sync
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 41.8443 s, 51.3 MB/s
+
+
