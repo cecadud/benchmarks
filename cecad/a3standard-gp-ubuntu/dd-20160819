@@ -1,0 +1,341 @@
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 6.7924 s, 79.0 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 7.39605 s, 72.6 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 6.331 s, 84.8 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 8.72369 s, 61.5 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 7.89073 s, 68.0 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=512M count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+1+0 records in
+1+0 records out
+536870912 bytes (537 MB) copied, 8.44625 s, 63.6 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 16.1791 s, 66.4 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 16.0063 s, 67.1 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 14.8954 s, 72.1 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 18.7426 s, 57.3 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 19.1651 s, 56.0 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+1+0 records in
+1+0 records out
+1073741824 bytes (1.1 GB) copied, 17.6715 s, 60.8 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=2 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 29.6 s, 72.6 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=2 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 29.5342 s, 72.7 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=2 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 30.2415 s, 71.0 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=2 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 32.2987 s, 66.5 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=2 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 30.7944 s, 69.7 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=2 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+2+0 records in
+2+0 records out
+2147483648 bytes (2.1 GB) copied, 33.0187 s, 65.0 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=4 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 61.0152 s, 70.4 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=4 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 59.3695 s, 72.3 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=4 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 60.9424 s, 70.5 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=4 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 64.8673 s, 66.2 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=4 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 63.5704 s, 67.6 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=4 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+4+0 records in
+4+0 records out
+4294967296 bytes (4.3 GB) copied, 63.4467 s, 67.7 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=8 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 120.584 s, 71.2 MB/s 
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=8 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 120.236 s, 71.4 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=8 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 119.464 s, 71.9 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=8 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 129.607 s, 66.3 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=8 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 129.48 s, 66.3 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=1G count=8 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+8+0 records in
+8+0 records out
+8589934592 bytes (8.6 GB) copied, 129.535 s, 66.3 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 32.5476 s, 66.0 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 32.3019 s, 66.5 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 31.9018 s, 67.3 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 31.3682 s, 68.5 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 31.3401 s, 68.5 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 31.915 s, 67.3 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=2 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 60.8882 s, 70.5 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=2 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 61.384 s, 70.0 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=2 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 61.5261 s, 69.8 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=2 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 64.4711 s, 66.6 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=2 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 65.0542 s, 66.0 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=2 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 61.5193 s, 69.8 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=4 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 118.592 s, 72.4 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=4 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 118.642 s, 72.4 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=4 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 120.179 s, 71.5 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=4 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 124.285 s, 69.1 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=4 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 122.69 s, 70.0 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=2G count=4 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+4 records in
+0+4 records out
+8589918208 bytes (8.6 GB) copied, 125.067 s, 68.7 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=4G count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 30.7976 s, 69.7 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=4G count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 31.1817 s, 68.9 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=4G count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 31.399 s, 68.4 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=4G count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 31.0911 s, 69.1 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=4G count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 30.6039 s, 70.2 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=4G count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+0+1 records in
+0+1 records out
+2147479552 bytes (2.1 GB) copied, 31.7276 s, 67.7 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=4G count=2 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 60.3559 s, 71.2 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=4G count=2 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 60.3255 s, 71.2 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=4G count=2 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 60.1196 s, 71.4 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=4G count=2 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 61.2025 s, 70.2 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=4G count=2 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 64.3397 s, 66.8 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=4G count=2 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+dd: warning: partial read (2147479552 bytes); suggest iflag=fullblock
+0+2 records in
+0+2 records out
+4294959104 bytes (4.3 GB) copied, 62.5378 s, 68.7 MB/s
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=8G count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+dd: memory exhausted by input buffer of size 8589934592 bytes (8.0 GiB)
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=8G count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+dd: memory exhausted by input buffer of size 8589934592 bytes (8.0 GiB)
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=8G count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+dd: memory exhausted by input buffer of size 8589934592 bytes (8.0 GiB)
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=8G count=1 oflag=direct
+sudo: unable to resolve host a3-standard-gp
+dd: memory exhausted by input buffer of size 8589934592 bytes (8.0 GiB)
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=8G count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+dd: memory exhausted by input buffer of size 8589934592 bytes (8.0 GiB)
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=8G count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+dd: memory exhausted by input buffer of size 8589934592 bytes (8.0 GiB)
+ubuntu@a3-standard-gp:~$ sudo dd if=/dev/zero of=test bs=8G count=1 oflag=sync
+sudo: unable to resolve host a3-standard-gp
+dd: memory exhausted by input buffer of size 8589934592 bytes (8.0 GiB)
+
+

@@ -1,0 +1,53 @@
+pts-all-tests-20160812
+
+ ,"pts-all-tests-2"
+Processor,8 x Intel Core i7 9xx (Nehalem Class Core i7) @ 2.93GHz (8 Cores)
+Motherboard,OpenStack Foundation Nova v2015.1.4
+Chipset,Intel 440FX- 82441FX PMC
+Memory,14336MB
+Disk,32GB
+Graphics,Cirrus Logic GD 5446
+Network,Red Hat Virtio device
+OS,Ubuntu 14.04
+Kernel,3.13.0-93-generic (x86_64)
+Compiler,GCC 4.8.4
+File-System,ext4
+
+ ,"pts-all-tests-2"
+"RAMspeed SMP - Integer Add",12950.03
+"RAMspeed SMP - Integer Copy",13071.22
+"RAMspeed SMP - Integer Scale",13386.90
+"RAMspeed SMP - Floating-Point Add",14230.49
+"Stream - Type: Copy",15501.72
+"Stream - Type: Scale",15229.82
+"Stream - Type: Triad",17240.38
+"Stream - Add",17470.72
+"Stream - Copy",15501.72
+"Stream - Scale",15229.82
+"Stream - Type: Add",17470.72
+"NAS Parallel Benchmarks - Test / Class: LU.A",9190.31
+"Timed MAFFT Alignment - Multiple Sequence Alignment",8.51
+"CacheBench - Read Cache",2352.87
+"CacheBench - Write Cache",12456.50
+"Gcrypt Library - CAMELLIA256-ECB Cipher",3527
+"TSCP - AI Chess Performance",341333
+"John The Ripper - Traditional DES",6037167
+"John The Ripper - Blowfish",3343
+"x264 - H.264 Video Encoding",74.65
+"GraphicsMagick - HWB Color Space",86
+"GraphicsMagick - Local Adaptive Thresholding",69
+"GraphicsMagick - Sharpen",47
+"GraphicsMagick - Resizing",73
+"Himeno Benchmark - Poisson Pressure Solver",1296.10
+"7-Zip Compression - Compress Speed Test",15505
+"C-Ray - Total Time",18.29
+"Parallel BZIP2 Compression - 256MB File Compression",10.45
+"Smallpt - Global Illumination Renderer; 100 Samples",93
+"Crafty - Elapsed Time",96.76
+"FLAC Audio Encoding - WAV To FLAC",10.66
+"LAME MP3 Encoding - WAV To MP3",19.75
+"FFmpeg - H.264 HD To NTSC DV",28.93
+"Tachyon - Total Time",14.15
+"OpenSSL - RSA 4096-bit Performance",518.40
+"Apache Benchmark - Static Web Page Serving",12206.98
+
