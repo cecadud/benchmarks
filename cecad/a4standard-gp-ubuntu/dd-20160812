@@ -118,7 +118,7 @@ ubuntu@cecad-a4standard-gp:~$ dd if=/dev/zero of=test bs=1G count=8 oflag=sync
 8+0 records in
 8+0 records out
 8589934592 bytes (8.6 GB) copied, 138.387 s, 62.1 MB/s
-ubuntu@cecad-a4standard-gp:~$ dd if=/dev/zero of=test bs=2G count=1 oflag=direct                                                                                                                                                                                               
+ubuntu@cecad-a4standard-gp:~$ dd if=/dev/zero of=test bs=2G count=1  oflag=direct                                                                                                                                                                                               
 0+1 records in
 0+1 records out
 2147479552 bytes (2.1 GB) copied, 34.6168 s, 62.0 MB/s
